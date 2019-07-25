@@ -1,0 +1,13 @@
+import { UPDATE_USER, SHOW_ERROR } from '../actions/user-actions'
+
+const userReducer = (state = '', {type, payload}) => {
+  switch(type) {
+    case UPDATE_USER:
+      return payload;
+    case SHOW_ERROR:
+      return payload
+    default: return state
+  }
+}
+
+export default userReducer
