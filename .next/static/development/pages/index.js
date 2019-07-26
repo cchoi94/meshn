@@ -145,20 +145,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var _redux_store__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../redux/store */ "./redux/store.js");
-/* harmony import */ var _BottomNav__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./BottomNav */ "./components/BottomNav.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _redux_store__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../redux/store */ "./redux/store.js");
+/* harmony import */ var _BottomNav__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./BottomNav */ "./components/BottomNav.js");
 
 
 
 
 
 var _jsxFileName = "/Users/codychoi/Desktop/meshn/components/Layout.js";
-
 
 
 
@@ -179,41 +176,38 @@ var Layout = function Layout(Page) {
       Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(PageLayout, [{
         key: "render",
         value: function render() {
-          return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_7__["Provider"], {
-            store: _redux_store__WEBPACK_IMPORTED_MODULE_8__["default"],
+          return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_6__["Provider"], {
+            store: _redux_store__WEBPACK_IMPORTED_MODULE_7__["default"],
             __source: {
               fileName: _jsxFileName,
               lineNumber: 10
             },
             __self: this
-          }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(Page, {
+          }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(Page, {
             __source: {
               fileName: _jsxFileName,
               lineNumber: 11
             },
             __self: this
-          }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-            className: "jsx-281136771" + " " + "bottomNav",
+          }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+            className: "bottomNav",
             __source: {
               fileName: _jsxFileName,
               lineNumber: 12
             },
             __self: this
-          }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_BottomNav__WEBPACK_IMPORTED_MODULE_9__["default"], {
+          }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_BottomNav__WEBPACK_IMPORTED_MODULE_8__["default"], {
             __source: {
               fileName: _jsxFileName,
               lineNumber: 13
             },
             __self: this
-          })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
-            id: "281136771",
-            __self: this
-          }, ".bottomNav{position:fixed;bottom:0;left:0;width:100vw;}body{font-family:'Open Sans',sans-serif;}.container{padding:16px;overflow:auto;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2R5Y2hvaS9EZXNrdG9wL21lc2huL2NvbXBvbmVudHMvTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWMrQixBQUdnQyxBQU1xQixBQUd2QixhQUNDLEVBVEwsU0FDRixHQVNULElBUmMsSUFJZCxRQUhBIiwiZmlsZSI6Ii9Vc2Vycy9jb2R5Y2hvaS9EZXNrdG9wL21lc2huL2NvbXBvbmVudHMvTGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgUHJvdmlkZXIgfSBmcm9tICdyZWFjdC1yZWR1eCdcbmltcG9ydCBzdG9yZSBmcm9tICcuLi9yZWR1eC9zdG9yZSdcbmltcG9ydCBCb3R0b21OYXYgZnJvbSAnLi9Cb3R0b21OYXYnXG5cbmNvbnN0IExheW91dCA9IChQYWdlKSA9PiB7XG4gIHJldHVybiAoXG4gICAgY2xhc3MgUGFnZUxheW91dCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XG4gICAgICByZW5kZXIoKSB7XG4gICAgICAgIHJldHVybihcbiAgICAgICAgICA8UHJvdmlkZXIgc3RvcmU9e3N0b3JlfSA+XG4gICAgICAgICAgICA8UGFnZSAvPlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJib3R0b21OYXZcIj5cbiAgICAgICAgICAgICAgPEJvdHRvbU5hdi8+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXG4gICAgICAgICAgICAgIC5ib3R0b21OYXYge1xuICAgICAgICAgICAgICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICAgICAgICAgICAgICBib3R0b206IDA7XG4gICAgICAgICAgICAgICAgbGVmdDogMDtcbiAgICAgICAgICAgICAgICB3aWR0aDogMTAwdnc7XG4gICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgYm9keSB7XG4gICAgICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdPcGVuIFNhbnMnLCBzYW5zLXNlcmlmO1xuICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgIC5jb250YWluZXIge1xuICAgICAgICAgICAgICAgIHBhZGRpbmc6IDE2cHg7XG4gICAgICAgICAgICAgICAgb3ZlcmZsb3c6IGF1dG87XG4gICAgICAgICAgICAgIH1cbiAgICAgICAgICAgIGB9XG4gICAgICAgICAgICA8L3N0eWxlPlxuICAgICAgICAgIDwvUHJvdmlkZXI+XG4gICAgICAgIClcbiAgICAgIH1cbiAgICB9XG4gIClcbn1cblxuZXhwb3J0IGRlZmF1bHQgTGF5b3V0Il19 */\n/*@ sourceURL=/Users/codychoi/Desktop/meshn/components/Layout.js */"));
+          })));
         }
       }]);
 
       return PageLayout;
-    }(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component)
+    }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component)
   );
 };
 
@@ -99267,7 +99261,7 @@ var store = Object(redux__WEBPACK_IMPORTED_MODULE_0__["createStore"])(allReducer
 
 /***/ }),
 
-/***/ 0:
+/***/ 3:
 /*!*************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fcodychoi%2FDesktop%2Fmeshn%2Fpages%2Findex.js ***!
   \*************************************************************************************************************************/
@@ -99290,5 +99284,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[3,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

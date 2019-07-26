@@ -1,10 +1,19 @@
-body {
-  // background: blue
+.bottomNav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
 }
 
-// button {
-//   width: 100%;
-// }
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  padding: 16px;
+  margin-bottom: 54px;
+  overflow: auto;
+}
 
 .modalContainer {
   background: #fff;

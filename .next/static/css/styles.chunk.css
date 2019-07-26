@@ -10,6 +10,20 @@
   background: #5e5eff;
   color: #ffffff; }
 
+.bottomNav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.container {
+  padding: 16px;
+  margin-bottom: 54px;
+  overflow: auto; }
+
 .modalContainer {
   background: #fff;
   margin: 16px;
