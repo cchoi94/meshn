@@ -1,0 +1,17 @@
+.calTile {
+}
+
+.calTile:disabled {
+  background: #6f6f6f;
+  color: #ffffff
+}
+
+.react-calendar__tile--now {
+  background: #ff3f1d !important;
+  color: #ffffff;
+}
+
+.react-calendar__tile--active{
+  background: rgb(94, 94, 255);
+  color: #ffffff; 
+}

@@ -4,13 +4,15 @@ import productsReducer from './reducers/product-reducer'
 import userReducer from './reducers/user-reducer'
 import gymReducer from './reducers/gym-reducer'
 import selectedGymReducer from './reducers/selected-gym-reducer'
+import bookedTimesReducer from './reducers/booked-times-reducer'
 import thunk from 'redux-thunk'
 
 const allReducers = combineReducers({
   products: productsReducer,
   user: userReducer,
   gyms: gymReducer,
-  gym: selectedGymReducer
+  gym: selectedGymReducer,
+  bookedTimes: bookedTimesReducer
 })
 
 const allStoreEnhancers = compose (

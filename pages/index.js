@@ -2,7 +2,8 @@ import Link from 'next/link';
 import Layout from '../components/Layout'
 import { createSelector } from 'reselect'
 import { connect } from 'react-redux'
-import { updateUser, authListener } from '../redux/actions/user-actions'
+import { updateUser } from '../redux/actions/user-actions'
+import { getBookedTimes } from '../redux/actions/gym-actions.js'
 import Log from '../components/Log'
 import Login from '../components/Login'
 import firebaseApp from '../components/Requests/FirebaseConfig'
@@ -20,7 +21,15 @@ class Index extends React.Component {
   }
 
   componentDidMount() {
-    this.props.onAuthListener()
+    // this.props.onAuthListener();
+    firebaseApp.auth().onAuthStateChanged((user) => {
+      if (user) {
+        this.props.onUpdateUser(user)
+        this.props.onGetBookedTimes(this.props.user.user_email, 'user')
+      } else {
+         this.props.updateUser(null);
+      }
+    })
   }
 
   render() {
@@ -29,7 +38,10 @@ class Index extends React.Component {
         <p>Activity Log</p>
         {this.props.user ? 
           <div>
-            <Log />
+            <Log 
+              type="user"
+              data={this.props.bookedTimes}
+            />
           </div>
          : <Login />}
          <style jsx global>{`
@@ -49,16 +61,23 @@ const userSelector = createSelector(
   user => user
 )
 
+const bookedTimesSelector = createSelector(
+  state => state.bookedTimes,
+  bookedTimes => bookedTimes
+)
+
 const mapStateToProps = createSelector(
   userSelector,
-  (user) => ({
-    user
+  bookedTimesSelector,
+  (user, bookedTimes) => ({
+    user,
+    bookedTimes
   })
 );
 
 const mapActionsToProps = {
   onUpdateUser: updateUser,
-  onAuthListener: authListener
+  onGetBookedTimes: getBookedTimes,
 }
 
 export default Layout(connect(mapStateToProps, mapActionsToProps)(Index));

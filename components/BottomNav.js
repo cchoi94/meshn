@@ -13,7 +13,6 @@ export default function SimpleBottomNavigation(props) {
       value={value}
       onChange={(event, newValue) => {
         setValue(newValue);
-        console.log(event, newValue)
       }}
       showLabels
       className="root"

@@ -1,3 +1,25 @@
 body {
+  // background: blue
+}
 
+// button {
+//   width: 100%;
+// }
+
+.modalContainer {
+  background: #fff;
+  margin: 16px;
+  padding: 16px
+}
+
+.dropdown {
+  padding: 16px 0;
+}
+
+.modalBox {
+  z-index: 10 !important;
+}
+
+.modalContainer {
+  z-index: 5;
 }

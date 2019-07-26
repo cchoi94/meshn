@@ -9,13 +9,21 @@ import Button from '@material-ui/core/Button';
 
 import * as moment from 'moment'
 
-export default function Log(props) {
-  const {data, type, openModal, chooseGym} = props
-
-  const onHandleGymBooking = () => {
-    chooseGym(data)
-    openModal(data);
+export default class Log extends React.Component {
+  constructor(props) {
+    super(props)
   }
+
+  onHandleGymBooking = () => {
+    this.props.chooseGym(this.props.data)
+    this.props.openModal(this.props.data);
+    let decomposedNameArray = this.props.data.name.split('/')
+    let gymDocId = decomposedNameArray.splice(decomposedNameArray.length - 1)[0]
+    this.props.getBookedTimes(gymDocId, 'gym')
+  }
+
+  render() {
+    const {data, type} = this.props
 
   return (
     <div className="container">
@@ -27,8 +35,7 @@ export default function Log(props) {
             </h1>
             <img src="https://via.placeholder.com/240x90C" alt={`${data.fields.name} image`}/>
               <div>
-                Location: {`${data.fields.location.mapValue.fields.street_name.stringValue} ${data.fields.location.mapValue.fields.street_number.stringValue}
-                ${data.fields.location.mapValue.fields.street_type.stringValue}`}
+                Location: {data.fields.location.stringValue}
               </div>
               <div className="availabilityContainer">
                 <ExpansionPanel>
@@ -53,36 +60,38 @@ export default function Log(props) {
                   </ExpansionPanel>
               </div>
             <div className="bookBtn">
-              <Button onClick={onHandleGymBooking} variant="contained" color="primary">
+              <Button onClick={this.onHandleGymBooking} variant="contained" color="primary">
                 Book
               </Button>
             </div>
           </div>
         </Paper>
       }
-      {type === 'activity' &&
-        <Paper>
-          <div className="logContainer">
-            <Typography variant="h5">
-              {data.name}
-            </Typography>
-            <img src="https://via.placeholder.com/480x90C" alt={`${data.fields.name} image`}/>
-            <Typography variant="p">
-              Paper can be used to build surface or other elements for your application.
-            </Typography>
-          </div>
-        </Paper>
-      }
-      {
-
-      }
+      {(type === 'user' && data) &&
+        data.map(log => {
+          return (
+            <Paper key={log.modified}>
+              <div className="logContainer">
+                <h1>
+                  {log.gym_name}
+                </h1>
+                <img src="https://via.placeholder.com/240x90C" alt={`${log.gym_name} image`}/>
+                <div>
+                  <p>Location: {log.gym_location}</p>
+                  <p>Time booked: {moment(log.start_time, 'HH:mm:ss').format('h:mm a')} - {moment(log.end_time, 'HH:mm:ss').format('h:mm a')}</p>
+                </div>
+              </div>
+            </Paper>
+          )
+        })}
       <style jsx>
         {`
           .logContainer {
             padding: 16px !important;
             position: relative
             height: 100%;
-            overflow: scroll
+            overflow: scroll;
+            margin: 16px 0;
           }
           img {
             margin: 16px 0;
@@ -101,4 +110,5 @@ export default function Log(props) {
       </style>
     </div>
   );
+  }
 }

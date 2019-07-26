@@ -31,7 +31,7 @@ export const authListener = () => {
       }
     })
   }
-  }
+}
 
 export const showError = () => {
   return {
@@ -47,7 +47,6 @@ export const apiRequest = () => {
   return dispatch => {
     axios.get('/data').then(response => {
       // dispatch(updateUser(response.newUser))
-      console.log(response)
     }, error => {
       dispatch(showError())
     })

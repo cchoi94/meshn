@@ -143,7 +143,6 @@ function SimpleBottomNavigation(props) {
     value: value,
     onChange: function onChange(event, newValue) {
       setValue(newValue);
-      console.log(event, newValue);
     },
     showLabels: true,
     className: "root",
@@ -156,7 +155,7 @@ function SimpleBottomNavigation(props) {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_BottomNavigationAction__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -165,20 +164,20 @@ function SimpleBottomNavigation(props) {
     icon: react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_icons_Menu__WEBPACK_IMPORTED_MODULE_7___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22
+        lineNumber: 21
       },
       __self: this
     }),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 21
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "book",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 23
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_BottomNavigationAction__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -188,20 +187,20 @@ function SimpleBottomNavigation(props) {
     icon: react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_icons_EventNote__WEBPACK_IMPORTED_MODULE_8___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
+        lineNumber: 24
       },
       __self: this
     }),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 24
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
     href: "profile",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 26
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_core_BottomNavigationAction__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -211,19 +210,19 @@ function SimpleBottomNavigation(props) {
     icon: react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_material_ui_icons_Person__WEBPACK_IMPORTED_MODULE_9___default.a, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28
+        lineNumber: 27
       },
       __self: this
     }),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 27
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default.a, {
     id: "2085888330",
     __self: this
-  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2R5Y2hvaS9EZXNrdG9wL21lc2huL2NvbXBvbmVudHMvQm90dG9tTmF2LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQThCTyIsImZpbGUiOiIvVXNlcnMvY29keWNob2kvRGVza3RvcC9tZXNobi9jb21wb25lbnRzL0JvdHRvbU5hdi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluaydcbmltcG9ydCB7IG1ha2VTdHlsZXMgfSBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9zdHlsZXMnO1xuaW1wb3J0IEJvdHRvbU5hdmlnYXRpb24gZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQm90dG9tTmF2aWdhdGlvbic7XG5pbXBvcnQgQm90dG9tTmF2aWdhdGlvbkFjdGlvbiBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9Cb3R0b21OYXZpZ2F0aW9uQWN0aW9uJztcbmltcG9ydCBBY3Rpdml0eUljb24gZnJvbSAnQG1hdGVyaWFsLXVpL2ljb25zL01lbnUnO1xuaW1wb3J0IEJvb2tJY29uIGZyb20gJ0BtYXRlcmlhbC11aS9pY29ucy9FdmVudE5vdGUnO1xuaW1wb3J0IFByb2ZpbGVJY29uIGZyb20gJ0BtYXRlcmlhbC11aS9pY29ucy9QZXJzb24nO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTaW1wbGVCb3R0b21OYXZpZ2F0aW9uKHByb3BzKSB7XG4gIGNvbnN0IFt2YWx1ZSwgc2V0VmFsdWVdID0gUmVhY3QudXNlU3RhdGUoMCk7XG4gIHJldHVybiAoXG4gICAgPEJvdHRvbU5hdmlnYXRpb25cbiAgICAgIHZhbHVlPXt2YWx1ZX1cbiAgICAgIG9uQ2hhbmdlPXsoZXZlbnQsIG5ld1ZhbHVlKSA9PiB7XG4gICAgICAgIHNldFZhbHVlKG5ld1ZhbHVlKTtcbiAgICAgICAgY29uc29sZS5sb2coZXZlbnQsIG5ld1ZhbHVlKVxuICAgICAgfX1cbiAgICAgIHNob3dMYWJlbHNcbiAgICAgIGNsYXNzTmFtZT1cInJvb3RcIlxuICAgID5cbiAgICAgIDxMaW5rIGhyZWY9XCIvXCI+XG4gICAgICAgIDxCb3R0b21OYXZpZ2F0aW9uQWN0aW9uIHNob3dMYWJlbCBsYWJlbD1cIkFjdGl2aXR5XCIgaWNvbj17PEFjdGl2aXR5SWNvbiAvPn0gLz5cbiAgICAgIDwvTGluaz5cbiAgICAgIDxMaW5rIGhyZWY9XCJib29rXCI+XG4gICAgICAgIDxCb3R0b21OYXZpZ2F0aW9uQWN0aW9uIHNob3dMYWJlbCBsYWJlbD1cIkJvb2tcIiBocmVmPVwiYm9va1wiIGljb249ezxCb29rSWNvbiAvPn0gLz5cbiAgICAgIDwvTGluaz5cbiAgICAgIDxMaW5rIGhyZWYgPVwicHJvZmlsZVwiPlxuICAgICAgICA8Qm90dG9tTmF2aWdhdGlvbkFjdGlvbiBzaG93TGFiZWwgbGFiZWw9XCJQcm9maWxlXCIgaHJlZj1cInByb2ZpbGVcIiBpY29uPXs8UHJvZmlsZUljb24gLz59IC8+XG4gICAgICA8L0xpbms+XG4gICAgPHN0eWxlIGpzeD5cbiAgICAgIHtgYH1cbiAgICA8L3N0eWxlPlxuICAgIDwvQm90dG9tTmF2aWdhdGlvbj5cbiAgKTtcbn0iXX0= */\n/*@ sourceURL=/Users/codychoi/Desktop/meshn/components/BottomNav.js */"));
+  }, "\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2R5Y2hvaS9EZXNrdG9wL21lc2huL2NvbXBvbmVudHMvQm90dG9tTmF2LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQTZCTyIsImZpbGUiOiIvVXNlcnMvY29keWNob2kvRGVza3RvcC9tZXNobi9jb21wb25lbnRzL0JvdHRvbU5hdi5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBMaW5rIGZyb20gJ25leHQvbGluaydcbmltcG9ydCB7IG1ha2VTdHlsZXMgfSBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9zdHlsZXMnO1xuaW1wb3J0IEJvdHRvbU5hdmlnYXRpb24gZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQm90dG9tTmF2aWdhdGlvbic7XG5pbXBvcnQgQm90dG9tTmF2aWdhdGlvbkFjdGlvbiBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9Cb3R0b21OYXZpZ2F0aW9uQWN0aW9uJztcbmltcG9ydCBBY3Rpdml0eUljb24gZnJvbSAnQG1hdGVyaWFsLXVpL2ljb25zL01lbnUnO1xuaW1wb3J0IEJvb2tJY29uIGZyb20gJ0BtYXRlcmlhbC11aS9pY29ucy9FdmVudE5vdGUnO1xuaW1wb3J0IFByb2ZpbGVJY29uIGZyb20gJ0BtYXRlcmlhbC11aS9pY29ucy9QZXJzb24nO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBTaW1wbGVCb3R0b21OYXZpZ2F0aW9uKHByb3BzKSB7XG4gIGNvbnN0IFt2YWx1ZSwgc2V0VmFsdWVdID0gUmVhY3QudXNlU3RhdGUoMCk7XG4gIHJldHVybiAoXG4gICAgPEJvdHRvbU5hdmlnYXRpb25cbiAgICAgIHZhbHVlPXt2YWx1ZX1cbiAgICAgIG9uQ2hhbmdlPXsoZXZlbnQsIG5ld1ZhbHVlKSA9PiB7XG4gICAgICAgIHNldFZhbHVlKG5ld1ZhbHVlKTtcbiAgICAgIH19XG4gICAgICBzaG93TGFiZWxzXG4gICAgICBjbGFzc05hbWU9XCJyb290XCJcbiAgICA+XG4gICAgICA8TGluayBocmVmPVwiL1wiPlxuICAgICAgICA8Qm90dG9tTmF2aWdhdGlvbkFjdGlvbiBzaG93TGFiZWwgbGFiZWw9XCJBY3Rpdml0eVwiIGljb249ezxBY3Rpdml0eUljb24gLz59IC8+XG4gICAgICA8L0xpbms+XG4gICAgICA8TGluayBocmVmPVwiYm9va1wiPlxuICAgICAgICA8Qm90dG9tTmF2aWdhdGlvbkFjdGlvbiBzaG93TGFiZWwgbGFiZWw9XCJCb29rXCIgaHJlZj1cImJvb2tcIiBpY29uPXs8Qm9va0ljb24gLz59IC8+XG4gICAgICA8L0xpbms+XG4gICAgICA8TGluayBocmVmID1cInByb2ZpbGVcIj5cbiAgICAgICAgPEJvdHRvbU5hdmlnYXRpb25BY3Rpb24gc2hvd0xhYmVsIGxhYmVsPVwiUHJvZmlsZVwiIGhyZWY9XCJwcm9maWxlXCIgaWNvbj17PFByb2ZpbGVJY29uIC8+fSAvPlxuICAgICAgPC9MaW5rPlxuICAgIDxzdHlsZSBqc3g+XG4gICAgICB7YGB9XG4gICAgPC9zdHlsZT5cbiAgICA8L0JvdHRvbU5hdmlnYXRpb24+XG4gICk7XG59Il19 */\n/*@ sourceURL=/Users/codychoi/Desktop/meshn/components/BottomNav.js */"));
 }
 
 /***/ }),
@@ -329,26 +328,40 @@ var Layout = function Layout(Page) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Log; });
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/Paper */ "@material-ui/core/Paper");
-/* harmony import */ var _material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Typography */ "@material-ui/core/Typography");
-/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _material_ui_core_ExpansionPanel__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/ExpansionPanel */ "@material-ui/core/ExpansionPanel");
-/* harmony import */ var _material_ui_core_ExpansionPanel__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_ExpansionPanel__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _material_ui_core_ExpansionPanelSummary__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/ExpansionPanelSummary */ "@material-ui/core/ExpansionPanelSummary");
-/* harmony import */ var _material_ui_core_ExpansionPanelSummary__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_ExpansionPanelSummary__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _material_ui_core_ExpansionPanelDetails__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/ExpansionPanelDetails */ "@material-ui/core/ExpansionPanelDetails");
-/* harmony import */ var _material_ui_core_ExpansionPanelDetails__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_ExpansionPanelDetails__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/icons/ExpandMore */ "@material-ui/icons/ExpandMore");
-/* harmony import */ var _material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @material-ui/core/Button */ "@material-ui/core/Button");
-/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! moment */ "moment");
-/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @material-ui/core/Paper */ "@material-ui/core/Paper");
+/* harmony import */ var _material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @material-ui/core/Typography */ "@material-ui/core/Typography");
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _material_ui_core_ExpansionPanel__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @material-ui/core/ExpansionPanel */ "@material-ui/core/ExpansionPanel");
+/* harmony import */ var _material_ui_core_ExpansionPanel__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_ExpansionPanel__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _material_ui_core_ExpansionPanelSummary__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @material-ui/core/ExpansionPanelSummary */ "@material-ui/core/ExpansionPanelSummary");
+/* harmony import */ var _material_ui_core_ExpansionPanelSummary__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_ExpansionPanelSummary__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _material_ui_core_ExpansionPanelDetails__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @material-ui/core/ExpansionPanelDetails */ "@material-ui/core/ExpansionPanelDetails");
+/* harmony import */ var _material_ui_core_ExpansionPanelDetails__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_ExpansionPanelDetails__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @material-ui/icons/ExpandMore */ "@material-ui/icons/ExpandMore");
+/* harmony import */ var _material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @material-ui/core/Button */ "@material-ui/core/Button");
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! moment */ "moment");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_16__);
+
+
+
+
+
+
+
 var _jsxFileName = "/Users/codychoi/Desktop/meshn/components/Log.js";
 
 
@@ -360,174 +373,220 @@ var _jsxFileName = "/Users/codychoi/Desktop/meshn/components/Log.js";
 
 
 
-function Log(props) {
-  var data = props.data,
-      type = props.type,
-      openModal = props.openModal,
-      chooseGym = props.chooseGym;
 
-  var onHandleGymBooking = function onHandleGymBooking() {
-    chooseGym(data);
-    openModal(data);
-  };
+var Log =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Log, _React$Component);
 
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-7190474" + " " + "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, type === 'booking' && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-7190474" + " " + "logContainer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    className: "jsx-7190474",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, data.fields.name.stringValue), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "https://via.placeholder.com/240x90C",
-    alt: "".concat(data.fields.name, " image"),
-    className: "jsx-7190474",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-7190474",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, "Location: ", "".concat(data.fields.location.mapValue.fields.street_name.stringValue, " ").concat(data.fields.location.mapValue.fields.street_number.stringValue, "\n                ").concat(data.fields.location.mapValue.fields.street_type.stringValue)), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-7190474" + " " + "availabilityContainer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_material_ui_core_ExpansionPanel__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_material_ui_core_ExpansionPanelSummary__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    expandIcon: react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_7___default.a, {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 36
-      },
-      __self: this
-    }),
-    "aria-controls": "panel1a-content",
-    id: "panel1a-header",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, "Hours")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_material_ui_core_ExpansionPanelDetails__WEBPACK_IMPORTED_MODULE_6___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-7190474",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, data.fields.availability.arrayValue.values.map(function (slot, index) {
-    return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-      key: index,
-      className: "jsx-7190474" + " " + "timeSlot",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 46
-      },
-      __self: this
-    }, slot.mapValue.fields.day.stringValue, " ", slot.mapValue.fields.start_time.stringValue ? "".concat(moment__WEBPACK_IMPORTED_MODULE_9__(slot.mapValue.fields.start_time.stringValue, 'HH:mm:ss').format('h:mm a'), " - ").concat(moment__WEBPACK_IMPORTED_MODULE_9__(slot.mapValue.fields.end_time.stringValue, 'HH:mm:ss').format('h:mm a')) : slot.mapValue.fields.status.stringValue);
-  }))))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-7190474" + " " + "bookBtn",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_8___default.a, {
-    onClick: onHandleGymBooking,
-    variant: "contained",
-    color: "primary",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    },
-    __self: this
-  }, "Book")))), type === 'activity' && react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-7190474" + " " + "logContainer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    variant: "h5",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66
-    },
-    __self: this
-  }, data.name), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "https://via.placeholder.com/480x90C",
-    alt: "".concat(data.fields.name, " image"),
-    className: "jsx-7190474",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    variant: "p",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
-    },
-    __self: this
-  }, "Paper can be used to build surface or other elements for your application."))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "7190474",
-    __self: this
-  }, ".logContainer.jsx-7190474{padding:16px !important;position:relative height:100%;overflow:scroll;}img.jsx-7190474{margin:16px 0;}.availabilityContainer.jsx-7190474{margin:16px 0;}.availabilityContainer.jsx-7190474 p.jsx-7190474{margin-left:16px;}.bookBtn.jsx-7190474{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2R5Y2hvaS9EZXNrdG9wL21lc2huL2NvbXBvbmVudHMvTG9nLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQStFUyxBQUdxQyxBQU1WLEFBR0EsQUFHRyxBQUdKLGNBUmYsQUFHQSxHQUdBLE9BWGMsOEJBRWYsZ0JBQUMsSUFhRCxpR0FBQyIsImZpbGUiOiIvVXNlcnMvY29keWNob2kvRGVza3RvcC9tZXNobi9jb21wb25lbnRzL0xvZy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgUGFwZXIgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvUGFwZXInO1xuaW1wb3J0IFR5cG9ncmFwaHkgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvVHlwb2dyYXBoeSc7XG5pbXBvcnQgRXhwYW5zaW9uUGFuZWwgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvRXhwYW5zaW9uUGFuZWwnO1xuaW1wb3J0IEV4cGFuc2lvblBhbmVsU3VtbWFyeSBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9FeHBhbnNpb25QYW5lbFN1bW1hcnknO1xuaW1wb3J0IEV4cGFuc2lvblBhbmVsRGV0YWlscyBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9FeHBhbnNpb25QYW5lbERldGFpbHMnO1xuaW1wb3J0IEV4cGFuZE1vcmVJY29uIGZyb20gJ0BtYXRlcmlhbC11aS9pY29ucy9FeHBhbmRNb3JlJztcbmltcG9ydCBCdXR0b24gZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQnV0dG9uJztcblxuaW1wb3J0ICogYXMgbW9tZW50IGZyb20gJ21vbWVudCdcblxuZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTG9nKHByb3BzKSB7XG4gIGNvbnN0IHtkYXRhLCB0eXBlLCBvcGVuTW9kYWwsIGNob29zZUd5bX0gPSBwcm9wc1xuXG4gIGNvbnN0IG9uSGFuZGxlR3ltQm9va2luZyA9ICgpID0+IHtcbiAgICBjaG9vc2VHeW0oZGF0YSlcbiAgICBvcGVuTW9kYWwoZGF0YSk7XG4gIH1cblxuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XG4gICAgICB7dHlwZSA9PT0gJ2Jvb2tpbmcnICYmXG4gICAgICAgIDxQYXBlcj5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImxvZ0NvbnRhaW5lclwiPlxuICAgICAgICAgICAgPGgxPlxuICAgICAgICAgICAgICB7ZGF0YS5maWVsZHMubmFtZS5zdHJpbmdWYWx1ZX1cbiAgICAgICAgICAgIDwvaDE+XG4gICAgICAgICAgICA8aW1nIHNyYz1cImh0dHBzOi8vdmlhLnBsYWNlaG9sZGVyLmNvbS8yNDB4OTBDXCIgYWx0PXtgJHtkYXRhLmZpZWxkcy5uYW1lfSBpbWFnZWB9Lz5cbiAgICAgICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgICBMb2NhdGlvbjoge2Ake2RhdGEuZmllbGRzLmxvY2F0aW9uLm1hcFZhbHVlLmZpZWxkcy5zdHJlZXRfbmFtZS5zdHJpbmdWYWx1ZX0gJHtkYXRhLmZpZWxkcy5sb2NhdGlvbi5tYXBWYWx1ZS5maWVsZHMuc3RyZWV0X251bWJlci5zdHJpbmdWYWx1ZX1cbiAgICAgICAgICAgICAgICAke2RhdGEuZmllbGRzLmxvY2F0aW9uLm1hcFZhbHVlLmZpZWxkcy5zdHJlZXRfdHlwZS5zdHJpbmdWYWx1ZX1gfVxuICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJhdmFpbGFiaWxpdHlDb250YWluZXJcIj5cbiAgICAgICAgICAgICAgICA8RXhwYW5zaW9uUGFuZWw+XG4gICAgICAgICAgICAgICAgICAgIDxFeHBhbnNpb25QYW5lbFN1bW1hcnlcbiAgICAgICAgICAgICAgICAgICAgICBleHBhbmRJY29uPXs8RXhwYW5kTW9yZUljb24gLz59XG4gICAgICAgICAgICAgICAgICAgICAgYXJpYS1jb250cm9scz1cInBhbmVsMWEtY29udGVudFwiXG4gICAgICAgICAgICAgICAgICAgICAgaWQ9XCJwYW5lbDFhLWhlYWRlclwiXG4gICAgICAgICAgICAgICAgICAgID5cbiAgICAgICAgICAgICAgICAgICAgICA8VHlwb2dyYXBoeT5Ib3VyczwvVHlwb2dyYXBoeT5cbiAgICAgICAgICAgICAgICAgICAgPC9FeHBhbnNpb25QYW5lbFN1bW1hcnk+XG4gICAgICAgICAgICAgICAgICAgIDxFeHBhbnNpb25QYW5lbERldGFpbHM+XG4gICAgICAgICAgICAgICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIHtkYXRhLmZpZWxkcy5hdmFpbGFiaWxpdHkuYXJyYXlWYWx1ZS52YWx1ZXMubWFwKChzbG90LCBpbmRleCkgPT4ge1xuICAgICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4oXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwidGltZVNsb3RcIiBrZXk9e2luZGV4fT5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtzbG90Lm1hcFZhbHVlLmZpZWxkcy5kYXkuc3RyaW5nVmFsdWV9IHtzbG90Lm1hcFZhbHVlLmZpZWxkcy5zdGFydF90aW1lLnN0cmluZ1ZhbHVlID8gYCR7bW9tZW50KHNsb3QubWFwVmFsdWUuZmllbGRzLnN0YXJ0X3RpbWUuc3RyaW5nVmFsdWUsICdISDptbTpzcycpLmZvcm1hdCgnaDptbSBhJyl9IC0gJHttb21lbnQoc2xvdC5tYXBWYWx1ZS5maWVsZHMuZW5kX3RpbWUuc3RyaW5nVmFsdWUsICdISDptbTpzcycpLmZvcm1hdCgnaDptbSBhJyl9YCA6IHNsb3QubWFwVmFsdWUuZmllbGRzLnN0YXR1cy5zdHJpbmdWYWx1ZX1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICAgICAgICAgICAgICAgIClcbiAgICAgICAgICAgICAgICAgICAgICAgIH0pfVxuICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8L0V4cGFuc2lvblBhbmVsRGV0YWlscz5cbiAgICAgICAgICAgICAgICAgIDwvRXhwYW5zaW9uUGFuZWw+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJib29rQnRuXCI+XG4gICAgICAgICAgICAgIDxCdXR0b24gb25DbGljaz17b25IYW5kbGVHeW1Cb29raW5nfSB2YXJpYW50PVwiY29udGFpbmVkXCIgY29sb3I9XCJwcmltYXJ5XCI+XG4gICAgICAgICAgICAgICAgQm9va1xuICAgICAgICAgICAgICA8L0J1dHRvbj5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L1BhcGVyPlxuICAgICAgfVxuICAgICAge3R5cGUgPT09ICdhY3Rpdml0eScgJiZcbiAgICAgICAgPFBhcGVyPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibG9nQ29udGFpbmVyXCI+XG4gICAgICAgICAgICA8VHlwb2dyYXBoeSB2YXJpYW50PVwiaDVcIj5cbiAgICAgICAgICAgICAge2RhdGEubmFtZX1cbiAgICAgICAgICAgIDwvVHlwb2dyYXBoeT5cbiAgICAgICAgICAgIDxpbWcgc3JjPVwiaHR0cHM6Ly92aWEucGxhY2Vob2xkZXIuY29tLzQ4MHg5MENcIiBhbHQ9e2Ake2RhdGEuZmllbGRzLm5hbWV9IGltYWdlYH0vPlxuICAgICAgICAgICAgPFR5cG9ncmFwaHkgdmFyaWFudD1cInBcIj5cbiAgICAgICAgICAgICAgUGFwZXIgY2FuIGJlIHVzZWQgdG8gYnVpbGQgc3VyZmFjZSBvciBvdGhlciBlbGVtZW50cyBmb3IgeW91ciBhcHBsaWNhdGlvbi5cbiAgICAgICAgICAgIDwvVHlwb2dyYXBoeT5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9QYXBlcj5cbiAgICAgIH1cbiAgICAgIHtcblxuICAgICAgfVxuICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAge2BcbiAgICAgICAgICAubG9nQ29udGFpbmVyIHtcbiAgICAgICAgICAgIHBhZGRpbmc6IDE2cHggIWltcG9ydGFudDtcbiAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZVxuICAgICAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgICAgICAgb3ZlcmZsb3c6IHNjcm9sbFxuICAgICAgICAgIH1cbiAgICAgICAgICBpbWcge1xuICAgICAgICAgICAgbWFyZ2luOiAxNnB4IDA7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5hdmFpbGFiaWxpdHlDb250YWluZXIge1xuICAgICAgICAgICAgbWFyZ2luOiAxNnB4IDA7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5hdmFpbGFiaWxpdHlDb250YWluZXIgcCB7XG4gICAgICAgICAgICBtYXJnaW4tbGVmdDogMTZweDtcbiAgICAgICAgICB9XG4gICAgICAgICAgLmJvb2tCdG4ge1xuICAgICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogZmxleC1lbmRcbiAgICAgICAgICB9XG4gICAgICAgIGB9XG4gICAgICA8L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xufSJdfQ== */\n/*@ sourceURL=/Users/codychoi/Desktop/meshn/components/Log.js */"));
-}
+  function Log(props) {
+    var _this;
+
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Log);
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Log).call(this, props));
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "onHandleGymBooking", function () {
+      _this.props.chooseGym(_this.props.data);
+
+      _this.props.openModal(_this.props.data);
+
+      var decomposedNameArray = _this.props.data.name.split('/');
+
+      var gymDocId = decomposedNameArray.splice(decomposedNameArray.length - 1)[0];
+
+      _this.props.getBookedTimes(gymDocId, 'gym');
+    });
+
+    return _this;
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Log, [{
+    key: "render",
+    value: function render() {
+      var _this$props = this.props,
+          data = _this$props.data,
+          type = _this$props.type;
+      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "jsx-2593281450" + " " + "container",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }, type === 'booking' && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_9___default.a, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "jsx-2593281450" + " " + "logContainer",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("h1", {
+        className: "jsx-2593281450",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }, data.fields.name.stringValue), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
+        src: "https://via.placeholder.com/240x90C",
+        alt: "".concat(data.fields.name, " image"),
+        className: "jsx-2593281450",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36
+        },
+        __self: this
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "jsx-2593281450",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        },
+        __self: this
+      }, "Location: ", data.fields.location.stringValue), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "jsx-2593281450" + " " + "availabilityContainer",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_material_ui_core_ExpansionPanel__WEBPACK_IMPORTED_MODULE_11___default.a, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_material_ui_core_ExpansionPanelSummary__WEBPACK_IMPORTED_MODULE_12___default.a, {
+        expandIcon: react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_material_ui_icons_ExpandMore__WEBPACK_IMPORTED_MODULE_14___default.a, {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 43
+          },
+          __self: this
+        }),
+        "aria-controls": "panel1a-content",
+        id: "panel1a-header",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_10___default.a, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        },
+        __self: this
+      }, "Hours")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_material_ui_core_ExpansionPanelDetails__WEBPACK_IMPORTED_MODULE_13___default.a, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "jsx-2593281450",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        },
+        __self: this
+      }, data.fields.availability.arrayValue.values.map(function (slot, index) {
+        return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
+          key: index,
+          className: "jsx-2593281450" + " " + "timeSlot",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 53
+          },
+          __self: this
+        }, slot.mapValue.fields.day.stringValue, " ", slot.mapValue.fields.start_time.stringValue ? "".concat(moment__WEBPACK_IMPORTED_MODULE_16__(slot.mapValue.fields.start_time.stringValue, 'HH:mm:ss').format('h:mm a'), " - ").concat(moment__WEBPACK_IMPORTED_MODULE_16__(slot.mapValue.fields.end_time.stringValue, 'HH:mm:ss').format('h:mm a')) : slot.mapValue.fields.status.stringValue);
+      }))))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "jsx-2593281450" + " " + "bookBtn",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 62
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_15___default.a, {
+        onClick: this.onHandleGymBooking,
+        variant: "contained",
+        color: "primary",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 63
+        },
+        __self: this
+      }, "Book")))), type === 'user' && data && data.map(function (log) {
+        return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_material_ui_core_Paper__WEBPACK_IMPORTED_MODULE_9___default.a, {
+          key: log.modified,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 73
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+          className: "jsx-2593281450" + " " + "logContainer",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 74
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("h1", {
+          className: "jsx-2593281450",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 75
+          },
+          __self: this
+        }, log.gym_name), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
+          src: "https://via.placeholder.com/240x90C",
+          alt: "".concat(log.gym_name, " image"),
+          className: "jsx-2593281450",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 78
+          },
+          __self: this
+        }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+          className: "jsx-2593281450",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 79
+          },
+          __self: this
+        }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
+          className: "jsx-2593281450",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 80
+          },
+          __self: this
+        }, "Location: ", log.gym_location), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
+          className: "jsx-2593281450",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 81
+          },
+          __self: this
+        }, "Time booked: ", moment__WEBPACK_IMPORTED_MODULE_16__(log.start_time, 'HH:mm:ss').format('h:mm a'), " - ", moment__WEBPACK_IMPORTED_MODULE_16__(log.end_time, 'HH:mm:ss').format('h:mm a')))));
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        id: "2593281450",
+        __self: this
+      }, ".logContainer.jsx-2593281450{padding:16px !important;position:relative height:100%;overflow:scroll;margin:16px 0;}img.jsx-2593281450{margin:16px 0;}.availabilityContainer.jsx-2593281450{margin:16px 0;}.availabilityContainer.jsx-2593281450 p.jsx-2593281450{margin-left:16px;}.bookBtn.jsx-2593281450{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2R5Y2hvaS9EZXNrdG9wL21lc2huL2NvbXBvbmVudHMvTG9nLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXVGUyxBQUdxQyxBQU9WLEFBR0EsQUFHRyxBQUdKLGNBUmYsQUFHQSxHQUdBLE9BWmMsOEJBQ0ksZ0JBQ0YsSUFjakIsVUFiQyx1RkFhQSIsImZpbGUiOiIvVXNlcnMvY29keWNob2kvRGVza3RvcC9tZXNobi9jb21wb25lbnRzL0xvZy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgUGFwZXIgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvUGFwZXInO1xuaW1wb3J0IFR5cG9ncmFwaHkgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvVHlwb2dyYXBoeSc7XG5pbXBvcnQgRXhwYW5zaW9uUGFuZWwgZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvRXhwYW5zaW9uUGFuZWwnO1xuaW1wb3J0IEV4cGFuc2lvblBhbmVsU3VtbWFyeSBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9FeHBhbnNpb25QYW5lbFN1bW1hcnknO1xuaW1wb3J0IEV4cGFuc2lvblBhbmVsRGV0YWlscyBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9FeHBhbnNpb25QYW5lbERldGFpbHMnO1xuaW1wb3J0IEV4cGFuZE1vcmVJY29uIGZyb20gJ0BtYXRlcmlhbC11aS9pY29ucy9FeHBhbmRNb3JlJztcbmltcG9ydCBCdXR0b24gZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvQnV0dG9uJztcblxuaW1wb3J0ICogYXMgbW9tZW50IGZyb20gJ21vbWVudCdcblxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgTG9nIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcbiAgY29uc3RydWN0b3IocHJvcHMpIHtcbiAgICBzdXBlcihwcm9wcylcbiAgfVxuXG4gIG9uSGFuZGxlR3ltQm9va2luZyA9ICgpID0+IHtcbiAgICB0aGlzLnByb3BzLmNob29zZUd5bSh0aGlzLnByb3BzLmRhdGEpXG4gICAgdGhpcy5wcm9wcy5vcGVuTW9kYWwodGhpcy5wcm9wcy5kYXRhKTtcbiAgICBsZXQgZGVjb21wb3NlZE5hbWVBcnJheSA9IHRoaXMucHJvcHMuZGF0YS5uYW1lLnNwbGl0KCcvJylcbiAgICBsZXQgZ3ltRG9jSWQgPSBkZWNvbXBvc2VkTmFtZUFycmF5LnNwbGljZShkZWNvbXBvc2VkTmFtZUFycmF5Lmxlbmd0aCAtIDEpWzBdXG4gICAgdGhpcy5wcm9wcy5nZXRCb29rZWRUaW1lcyhneW1Eb2NJZCwgJ2d5bScpXG4gIH1cblxuICByZW5kZXIoKSB7XG4gICAgY29uc3Qge2RhdGEsIHR5cGV9ID0gdGhpcy5wcm9wc1xuXG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cbiAgICAgIHt0eXBlID09PSAnYm9va2luZycgJiZcbiAgICAgICAgPFBhcGVyPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibG9nQ29udGFpbmVyXCI+XG4gICAgICAgICAgICA8aDE+XG4gICAgICAgICAgICAgIHtkYXRhLmZpZWxkcy5uYW1lLnN0cmluZ1ZhbHVlfVxuICAgICAgICAgICAgPC9oMT5cbiAgICAgICAgICAgIDxpbWcgc3JjPVwiaHR0cHM6Ly92aWEucGxhY2Vob2xkZXIuY29tLzI0MHg5MENcIiBhbHQ9e2Ake2RhdGEuZmllbGRzLm5hbWV9IGltYWdlYH0vPlxuICAgICAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICAgIExvY2F0aW9uOiB7ZGF0YS5maWVsZHMubG9jYXRpb24uc3RyaW5nVmFsdWV9XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImF2YWlsYWJpbGl0eUNvbnRhaW5lclwiPlxuICAgICAgICAgICAgICAgIDxFeHBhbnNpb25QYW5lbD5cbiAgICAgICAgICAgICAgICAgICAgPEV4cGFuc2lvblBhbmVsU3VtbWFyeVxuICAgICAgICAgICAgICAgICAgICAgIGV4cGFuZEljb249ezxFeHBhbmRNb3JlSWNvbiAvPn1cbiAgICAgICAgICAgICAgICAgICAgICBhcmlhLWNvbnRyb2xzPVwicGFuZWwxYS1jb250ZW50XCJcbiAgICAgICAgICAgICAgICAgICAgICBpZD1cInBhbmVsMWEtaGVhZGVyXCJcbiAgICAgICAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgICAgICAgIDxUeXBvZ3JhcGh5PkhvdXJzPC9UeXBvZ3JhcGh5PlxuICAgICAgICAgICAgICAgICAgICA8L0V4cGFuc2lvblBhbmVsU3VtbWFyeT5cbiAgICAgICAgICAgICAgICAgICAgPEV4cGFuc2lvblBhbmVsRGV0YWlscz5cbiAgICAgICAgICAgICAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAge2RhdGEuZmllbGRzLmF2YWlsYWJpbGl0eS5hcnJheVZhbHVlLnZhbHVlcy5tYXAoKHNsb3QsIGluZGV4KSA9PiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybihcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJ0aW1lU2xvdFwiIGtleT17aW5kZXh9PlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge3Nsb3QubWFwVmFsdWUuZmllbGRzLmRheS5zdHJpbmdWYWx1ZX0ge3Nsb3QubWFwVmFsdWUuZmllbGRzLnN0YXJ0X3RpbWUuc3RyaW5nVmFsdWUgPyBgJHttb21lbnQoc2xvdC5tYXBWYWx1ZS5maWVsZHMuc3RhcnRfdGltZS5zdHJpbmdWYWx1ZSwgJ0hIOm1tOnNzJykuZm9ybWF0KCdoOm1tIGEnKX0gLSAke21vbWVudChzbG90Lm1hcFZhbHVlLmZpZWxkcy5lbmRfdGltZS5zdHJpbmdWYWx1ZSwgJ0hIOm1tOnNzJykuZm9ybWF0KCdoOm1tIGEnKX1gIDogc2xvdC5tYXBWYWx1ZS5maWVsZHMuc3RhdHVzLnN0cmluZ1ZhbHVlfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgKVxuICAgICAgICAgICAgICAgICAgICAgICAgfSl9XG4gICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICAgIDwvRXhwYW5zaW9uUGFuZWxEZXRhaWxzPlxuICAgICAgICAgICAgICAgICAgPC9FeHBhbnNpb25QYW5lbD5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImJvb2tCdG5cIj5cbiAgICAgICAgICAgICAgPEJ1dHRvbiBvbkNsaWNrPXt0aGlzLm9uSGFuZGxlR3ltQm9va2luZ30gdmFyaWFudD1cImNvbnRhaW5lZFwiIGNvbG9yPVwicHJpbWFyeVwiPlxuICAgICAgICAgICAgICAgIEJvb2tcbiAgICAgICAgICAgICAgPC9CdXR0b24+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9QYXBlcj5cbiAgICAgIH1cbiAgICAgIHsodHlwZSA9PT0gJ3VzZXInICYmIGRhdGEpICYmXG4gICAgICAgIGRhdGEubWFwKGxvZyA9PiB7XG4gICAgICAgICAgcmV0dXJuIChcbiAgICAgICAgICAgIDxQYXBlciBrZXk9e2xvZy5tb2RpZmllZH0+XG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibG9nQ29udGFpbmVyXCI+XG4gICAgICAgICAgICAgICAgPGgxPlxuICAgICAgICAgICAgICAgICAge2xvZy5neW1fbmFtZX1cbiAgICAgICAgICAgICAgICA8L2gxPlxuICAgICAgICAgICAgICAgIDxpbWcgc3JjPVwiaHR0cHM6Ly92aWEucGxhY2Vob2xkZXIuY29tLzI0MHg5MENcIiBhbHQ9e2Ake2xvZy5neW1fbmFtZX0gaW1hZ2VgfS8+XG4gICAgICAgICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgICAgIDxwPkxvY2F0aW9uOiB7bG9nLmd5bV9sb2NhdGlvbn08L3A+XG4gICAgICAgICAgICAgICAgICA8cD5UaW1lIGJvb2tlZDoge21vbWVudChsb2cuc3RhcnRfdGltZSwgJ0hIOm1tOnNzJykuZm9ybWF0KCdoOm1tIGEnKX0gLSB7bW9tZW50KGxvZy5lbmRfdGltZSwgJ0hIOm1tOnNzJykuZm9ybWF0KCdoOm1tIGEnKX08L3A+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC9QYXBlcj5cbiAgICAgICAgICApXG4gICAgICAgIH0pfVxuICAgICAgPHN0eWxlIGpzeD5cbiAgICAgICAge2BcbiAgICAgICAgICAubG9nQ29udGFpbmVyIHtcbiAgICAgICAgICAgIHBhZGRpbmc6IDE2cHggIWltcG9ydGFudDtcbiAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZVxuICAgICAgICAgICAgaGVpZ2h0OiAxMDAlO1xuICAgICAgICAgICAgb3ZlcmZsb3c6IHNjcm9sbDtcbiAgICAgICAgICAgIG1hcmdpbjogMTZweCAwO1xuICAgICAgICAgIH1cbiAgICAgICAgICBpbWcge1xuICAgICAgICAgICAgbWFyZ2luOiAxNnB4IDA7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5hdmFpbGFiaWxpdHlDb250YWluZXIge1xuICAgICAgICAgICAgbWFyZ2luOiAxNnB4IDA7XG4gICAgICAgICAgfVxuICAgICAgICAgIC5hdmFpbGFiaWxpdHlDb250YWluZXIgcCB7XG4gICAgICAgICAgICBtYXJnaW4tbGVmdDogMTZweDtcbiAgICAgICAgICB9XG4gICAgICAgICAgLmJvb2tCdG4ge1xuICAgICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogZmxleC1lbmRcbiAgICAgICAgICB9XG4gICAgICAgIGB9XG4gICAgICA8L3N0eWxlPlxuICAgIDwvZGl2PlxuICApO1xuICB9XG59Il19 */\n/*@ sourceURL=/Users/codychoi/Desktop/meshn/components/Log.js */"));
+    }
+  }]);
+
+  return Log;
+}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
+
+
 
 /***/ }),
 
@@ -763,18 +822,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @material-ui/core/styles */ "@material-ui/core/styles");
-/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _material_ui_core_Modal__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @material-ui/core/Modal */ "@material-ui/core/Modal");
-/* harmony import */ var _material_ui_core_Modal__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Modal__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var react_calendar_dist_entry_nostyle__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-calendar/dist/entry.nostyle */ "react-calendar/dist/entry.nostyle");
-/* harmony import */ var react_calendar_dist_entry_nostyle__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_calendar_dist_entry_nostyle__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _styles_calendar_scss__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../styles/calendar.scss */ "./styles/calendar.scss");
-/* harmony import */ var _styles_calendar_scss__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_styles_calendar_scss__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _material_ui_core_Modal__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @material-ui/core/Modal */ "@material-ui/core/Modal");
+/* harmony import */ var _material_ui_core_Modal__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Modal__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @material-ui/core/Button */ "@material-ui/core/Button");
+/* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var react_calendar_dist_entry_nostyle__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-calendar/dist/entry.nostyle */ "react-calendar/dist/entry.nostyle");
+/* harmony import */ var react_calendar_dist_entry_nostyle__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_calendar_dist_entry_nostyle__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _SelectDropDown__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./SelectDropDown */ "./components/SelectDropDown.js");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! moment */ "moment");
+/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _styles_calendarModal_scss__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../styles/calendarModal.scss */ "./styles/calendarModal.scss");
+/* harmony import */ var _styles_calendarModal_scss__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_styles_calendarModal_scss__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! sweetalert2 */ "sweetalert2");
+/* harmony import */ var sweetalert2__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(sweetalert2__WEBPACK_IMPORTED_MODULE_15__);
 
 
 
@@ -784,6 +846,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "/Users/codychoi/Desktop/meshn/components/Modal.js";
+
+
 
 
 
@@ -803,10 +867,6 @@ function (_React$Component) {
 
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(SimpleModal).call(this, props));
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "onCalendarChange", function (event) {
-      console.log(event);
-    });
-
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "onDisableTile", function (_ref) {
       var date = _ref.date,
           view = _ref.view;
@@ -814,6 +874,7 @@ function (_React$Component) {
       var currentMonth = date.getMonth();
       var disabledDaysArray = [];
       var disabledDates = [];
+      var convertedTimesArray = [];
       var numberOfdaysInMonth = new Date(currentYear, currentMonth, 0).getDate();
 
       _this.props.data.fields.availability.arrayValue.values.forEach(function (timeSlot) {
@@ -828,6 +889,12 @@ function (_React$Component) {
         }
       }
 
+      _this.props.bookedTimes.forEach(function (bookedTimes) {
+        convertedTimesArray.push(new Date(bookedTimes));
+        disabledDates.concat(convertedTimesArray);
+      });
+
+      disabledDates = disabledDates.concat(convertedTimesArray);
       return view === 'month' && // Block day tiles only
       disabledDates.some(function (disabledDate) {
         return date.getFullYear() === disabledDate.getFullYear() && date.getMonth() === disabledDate.getMonth() && date.getDate() === disabledDate.getDate();
@@ -835,79 +902,191 @@ function (_React$Component) {
     });
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "onCalendarDateClick", function (day) {
+      var selectedDateTimeSlots = [];
+
       _this.setState({
         isDateSelected: true,
-        selectedDate: day
+        selectedDate: day,
+        selectedDateTimeSlots: selectedDateTimeSlots
       });
+
+      _this.props.data.fields.availability.arrayValue.values.forEach(function (timeSlot) {
+        if (_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_0___default()(timeSlot.mapValue.fields.day_value.integerValue) === day.getDay()) {
+          selectedDateTimeSlots.push({
+            startTime: moment__WEBPACK_IMPORTED_MODULE_13__(timeSlot.mapValue.fields.start_time.stringValue, 'HH:mm:ss').format('h:mm a'),
+            endTime: moment__WEBPACK_IMPORTED_MODULE_13__(timeSlot.mapValue.fields.end_time.stringValue, 'HH:mm:ss').format('h:mm a')
+          });
+
+          _this.setState({
+            selectedDateTimeSlots: selectedDateTimeSlots
+          });
+        }
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "onSelectedTimeslot", function (selectedTime) {
+      var convertedSelectedTime = {};
+      convertedSelectedTime.startTime = moment__WEBPACK_IMPORTED_MODULE_13__(selectedTime.startTime, 'HH:mm a').format('HH:mm:ss');
+      convertedSelectedTime.endTime = moment__WEBPACK_IMPORTED_MODULE_13__(selectedTime.endTime, 'HH:mm a').format('HH:mm:ss');
+
+      _this.setState({
+        userSelectedTimeSlot: convertedSelectedTime
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__["default"])(_this), "onHandleBookingSubmit", function () {
+      var postData = {};
+      var gymDocId = '';
+
+      var convertedDate = _this.state.selectedDate.toString().slice(0, 15);
+
+      var convertedStartTime = moment__WEBPACK_IMPORTED_MODULE_13__(_this.state.userSelectedTimeSlot.startTime, 'HH:mm:ss').format('HH:mm a');
+      var convertedEndTime = moment__WEBPACK_IMPORTED_MODULE_13__(_this.state.userSelectedTimeSlot.endTime, 'HH:mm:ss').format('HH:mm a');
+
+      if (_this.state.userSelectedTimeSlot && _this.state.selectedDate && _this.props.user) {
+        var decomposedNameArray = _this.props.data.name.split('/');
+
+        sweetalert2__WEBPACK_IMPORTED_MODULE_15___default.a.fire({
+          title: "Booking Confirmation",
+          html: "Selected Day: ".concat(convertedDate, " </br> Selected Time ").concat(convertedStartTime, " - ").concat(convertedEndTime),
+          type: 'warning',
+          showCancelButton: true,
+          confirmButtonColor: '#3085d6',
+          cancelButtonColor: '#d33',
+          confirmButtonText: 'Yes, Confirm it!',
+          className: 'swal'
+        }).then(function (result) {
+          if (result.value) {
+            sweetalert2__WEBPACK_IMPORTED_MODULE_15___default.a.fire('Booked!', 'Your event has been scheduled', 'success');
+            gymDocId = decomposedNameArray.splice(decomposedNameArray.length - 1)[0];
+            postData.user_email = {
+              stringValue: _this.props.user.user_email
+            };
+            postData.selected_start_time = {
+              stringValue: _this.state.userSelectedTimeSlot.startTime
+            };
+            postData.selected_end_time = {
+              stringValue: _this.state.userSelectedTimeSlot.endTime
+            };
+            postData.selected_date = {
+              stringValue: _this.state.selectedDate
+            };
+            postData.modified = {
+              stringValue: new Date()
+            };
+            postData.gym_name = {
+              stringValue: _this.props.data.fields.name.stringValue
+            };
+            postData.gym_location = {
+              stringValue: _this.props.data.fields.location.stringValue
+            };
+            postData.gym_id = {
+              stringValue: gymDocId
+            };
+
+            _this.props.modalAction();
+
+            _this.props.submitGymBooking(postData);
+          }
+        });
+      }
     });
 
     _this.state = {
       isDateSelected: false,
-      selectedDate: null
+      selectedDate: null,
+      selectedDateTimeSlots: [],
+      userSelectedTimeSlot: null
     };
     return _this;
-  }
+  } // onCalendarChange = (event) => {
+  // console.log(event)
+  // }
+
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_2__["default"])(SimpleModal, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
-        className: "jsx-1237661088",
+      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "modalContainer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 157
         },
         __self: this
-      }, this.props.type === 'booking' && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(_material_ui_core_Modal__WEBPACK_IMPORTED_MODULE_11___default.a, {
+      }, this.props.type === 'booking' && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_material_ui_core_Modal__WEBPACK_IMPORTED_MODULE_9___default.a, {
         "aria-labelledby": "simple-modal-title",
         "aria-describedby": "simple-modal-description",
         open: this.props.modalState,
         onClose: this.props.modalAction,
+        className: "modalBox",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 159
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
-        className: "jsx-1237661088" + " " + "modalContainer",
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "modalContainer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 166
         },
         __self: this
-      }, this.props.data && react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("div", {
-        className: "jsx-1237661088",
+      }, this.props.data && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 168
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement("h2", {
-        className: "jsx-1237661088",
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 69
+          lineNumber: 169
         },
         __self: this
-      }, "Schedule with ", this.props.data.fields.name.stringValue), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(react_calendar_dist_entry_nostyle__WEBPACK_IMPORTED_MODULE_12___default.a, {
+      }, "Schedule with ", this.props.data.fields.name.stringValue), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_calendar_dist_entry_nostyle__WEBPACK_IMPORTED_MODULE_11___default.a, {
         onChange: this.onCalendarChange,
         tileClassName: "calTile",
         tileDisabled: this.onDisableTile,
         onClickDay: this.onCalendarDateClick,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 170
         },
         __self: this
-      })))), react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_8___default.a, {
-        id: "1237661088",
+      }), this.state.isDateSelected && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "dropdown",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 177
+        },
         __self: this
-      }, ".modalContainer.jsx-1237661088{background:#fff;margin:16px;padding:16px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2R5Y2hvaS9EZXNrdG9wL21lc2huL2NvbXBvbmVudHMvTW9kYWwuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBaUdvQixBQUc2QixnQkFDSixZQUVmLGFBQUMiLCJmaWxlIjoiL1VzZXJzL2NvZHljaG9pL0Rlc2t0b3AvbWVzaG4vY29tcG9uZW50cy9Nb2RhbC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgeyBtYWtlU3R5bGVzIH0gZnJvbSAnQG1hdGVyaWFsLXVpL2NvcmUvc3R5bGVzJztcbmltcG9ydCBNb2RhbCBmcm9tICdAbWF0ZXJpYWwtdWkvY29yZS9Nb2RhbCc7XG5pbXBvcnQgQ2FsZW5kYXIgZnJvbSAncmVhY3QtY2FsZW5kYXIvZGlzdC9lbnRyeS5ub3N0eWxlJ1xuaW1wb3J0ICcuLi9zdHlsZXMvY2FsZW5kYXIuc2NzcydcblxuY2xhc3MgU2ltcGxlTW9kYWwgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xuICBjb25zdHJ1Y3Rvcihwcm9wcykge1xuICAgIHN1cGVyKHByb3BzKVxuICAgIHRoaXMuc3RhdGUgPSB7XG4gICAgICBpc0RhdGVTZWxlY3RlZDogZmFsc2UsXG4gICAgICBzZWxlY3RlZERhdGU6IG51bGxcbiAgICB9XG4gIH1cblxuICBvbkNhbGVuZGFyQ2hhbmdlID0gKGV2ZW50KSA9PiB7XG4gICAgY29uc29sZS5sb2coZXZlbnQpXG4gIH1cblxuICBvbkRpc2FibGVUaWxlID0gKHtkYXRlLCB2aWV3fSkgPT4ge1xuXG4gICAgbGV0IGN1cnJlbnRZZWFyID0gZGF0ZS5nZXRGdWxsWWVhcigpXG4gICAgbGV0IGN1cnJlbnRNb250aCA9IGRhdGUuZ2V0TW9udGgoKVxuICAgIGxldCBkaXNhYmxlZERheXNBcnJheSA9IFtdXG4gICAgbGV0IGRpc2FibGVkRGF0ZXMgPSBbXVxuXG4gICAgY29uc3QgbnVtYmVyT2ZkYXlzSW5Nb250aCA9IG5ldyBEYXRlKGN1cnJlbnRZZWFyLCBjdXJyZW50TW9udGgsIDApLmdldERhdGUoKVxuXG4gICAgdGhpcy5wcm9wcy5kYXRhLmZpZWxkcy5hdmFpbGFiaWxpdHkuYXJyYXlWYWx1ZS52YWx1ZXMuZm9yRWFjaCh0aW1lU2xvdCA9PiB7XG4gICAgICBpZih0aW1lU2xvdC5tYXBWYWx1ZS5maWVsZHMuc3RhdHVzLnN0cmluZ1ZhbHVlID09PSAnY2xvc2VkJykge1xuICAgICAgICBkaXNhYmxlZERheXNBcnJheS5wdXNoKHBhcnNlSW50KHRpbWVTbG90Lm1hcFZhbHVlLmZpZWxkcy5kYXlfdmFsdWUuaW50ZWdlclZhbHVlKSlcbiAgICAgIH1cbiAgICB9KVxuXG4gICAgZm9yIChsZXQgaSA9IDE7IGkgPD0gbnVtYmVyT2ZkYXlzSW5Nb250aCArIDI7IGkrKykge1xuICAgICAgaWYoZGlzYWJsZWREYXlzQXJyYXkuaW5jbHVkZXMobmV3IERhdGUoY3VycmVudFllYXIsIGN1cnJlbnRNb250aCwgaSkuZ2V0RGF5KCkpKSB7XG4gICAgICAgIGRpc2FibGVkRGF0ZXMucHVzaChuZXcgRGF0ZShjdXJyZW50WWVhciwgY3VycmVudE1vbnRoLCBpKSlcbiAgICAgIH1cbiAgICB9XG5cbiAgICByZXR1cm4gKHZpZXcgPT09ICdtb250aCcpICYmIC8vIEJsb2NrIGRheSB0aWxlcyBvbmx5XG4gICAgICBkaXNhYmxlZERhdGVzLnNvbWUoZGlzYWJsZWREYXRlID0+XG4gICAgICAgIGRhdGUuZ2V0RnVsbFllYXIoKSA9PT0gZGlzYWJsZWREYXRlLmdldEZ1bGxZZWFyKCkgJiZcbiAgICAgICAgZGF0ZS5nZXRNb250aCgpID09PSBkaXNhYmxlZERhdGUuZ2V0TW9udGgoKSAmJlxuICAgICAgICBkYXRlLmdldERhdGUoKSA9PT0gZGlzYWJsZWREYXRlLmdldERhdGUoKVxuICAgICl9XG5cbiAgb25DYWxlbmRhckRhdGVDbGljayA9IChkYXkpID0+IHtcbiAgICB0aGlzLnNldFN0YXRlKHtcbiAgICAgIGlzRGF0ZVNlbGVjdGVkOiB0cnVlLFxuICAgICAgc2VsZWN0ZWREYXRlOiBkYXlcbiAgICB9KVxuXG4gIH1cblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxkaXY+XG4gICAgICAgIHt0aGlzLnByb3BzLnR5cGUgPT09ICdib29raW5nJyAmJlxuICAgICAgICAgIDxNb2RhbFxuICAgICAgICAgICAgYXJpYS1sYWJlbGxlZGJ5PVwic2ltcGxlLW1vZGFsLXRpdGxlXCJcbiAgICAgICAgICAgIGFyaWEtZGVzY3JpYmVkYnk9XCJzaW1wbGUtbW9kYWwtZGVzY3JpcHRpb25cIlxuICAgICAgICAgICAgb3Blbj17dGhpcy5wcm9wcy5tb2RhbFN0YXRlfVxuICAgICAgICAgICAgb25DbG9zZT17dGhpcy5wcm9wcy5tb2RhbEFjdGlvbn1cbiAgICAgICAgICA+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1vZGFsQ29udGFpbmVyXCI+XG4gICAgICAgICAgICAgIHt0aGlzLnByb3BzLmRhdGEgJiZcbiAgICAgICAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICAgICAgPGgyPlNjaGVkdWxlIHdpdGgge3RoaXMucHJvcHMuZGF0YS5maWVsZHMubmFtZS5zdHJpbmdWYWx1ZX08L2gyPlxuICAgICAgICAgICAgICAgICAgPENhbGVuZGFyXG4gICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXt0aGlzLm9uQ2FsZW5kYXJDaGFuZ2V9XG4gICAgICAgICAgICAgICAgICAgIHRpbGVDbGFzc05hbWU9e1wiY2FsVGlsZVwifVxuICAgICAgICAgICAgICAgICAgICB0aWxlRGlzYWJsZWQ9e3RoaXMub25EaXNhYmxlVGlsZX1cbiAgICAgICAgICAgICAgICAgICAgb25DbGlja0RheT17dGhpcy5vbkNhbGVuZGFyRGF0ZUNsaWNrfVxuICAgICAgICAgICAgICAgICAgLz5cblxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICB9XG5cblxuXG4gICAgICAgICAgICAgIHsvKiA8YnV0dG9uIG9uQ2xpY2s9e3Rlc3R9PmxvZyB0aGlzLnByb3BzPC9idXR0b24+ICovfVxuXG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L01vZGFsPlxuICAgICAgICB9XG4gICAgICAgIHsvKiA8TW9kYWxcbiAgICAgICAgICBhcmlhLWxhYmVsbGVkYnk9XCJzaW1wbGUtbW9kYWwtdGl0bGVcIlxuICAgICAgICAgIGFyaWEtZGVzY3JpYmVkYnk9XCJzaW1wbGUtbW9kYWwtZGVzY3JpcHRpb25cIlxuICAgICAgICAgIG9wZW49e3RoaXMucHJvcHMubW9kYWxTdGF0ZX1cbiAgICAgICAgICBvbkNsb3NlPXt0aGlzLnByb3BzLm1vZGFsQWN0aW9ufVxuICAgICAgICA+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtb2RhbENvbnRhaW5lclwiPlxuICAgICAgICAgICAgVGhpcyBpcyBhIG1vZGFsXG4gICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9e3Rlc3R9PmxvZyB0aGlzLnByb3BzPC9idXR0b24+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvTW9kYWw+ICovfVxuICAgICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgLm1vZGFsQ29udGFpbmVyIHtcbiAgICAgICAgICAgIGJhY2tncm91bmQ6ICNmZmY7XG4gICAgICAgICAgICBtYXJnaW46IDE2cHg7XG4gICAgICAgICAgICBwYWRkaW5nOiAxNnB4XG4gICAgICAgICAgfVxuICAgICAgICBgfVxuICAgICAgICA8L3N0eWxlPlxuICAgICAgPC9kaXY+XG4gICAgKTtcblxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IFNpbXBsZU1vZGFsIl19 */\n/*@ sourceURL=/Users/codychoi/Desktop/meshn/components/Modal.js */"));
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_SelectDropDown__WEBPACK_IMPORTED_MODULE_12__["default"], {
+        data: this.state.selectedDateTimeSlots,
+        type: 'booking:timeslots',
+        onSelectedTimeslot: this.onSelectedTimeslot,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 178
+        },
+        __self: this
+      }))), this.state.userSelectedTimeSlot && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_10___default.a, {
+        onClick: this.onHandleBookingSubmit,
+        fullWidth: true,
+        disabled: !this.state.userSelectedTimeSlot,
+        variant: "contained",
+        color: "primary",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 188
+        },
+        __self: this
+      }, "Book"))));
     }
   }]);
 
   return SimpleModal;
-}(react__WEBPACK_IMPORTED_MODULE_9___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (SimpleModal);
 
@@ -954,6 +1133,100 @@ var instance = axios__WEBPACK_IMPORTED_MODULE_0___default.a.create({
   baseURL: 'https://firestore.googleapis.com/v1/projects/meshn-ae813/databases/(default)/documents'
 });
 /* harmony default export */ __webpack_exports__["default"] = (instance);
+
+/***/ }),
+
+/***/ "./components/SelectDropDown.js":
+/*!**************************************!*\
+  !*** ./components/SelectDropDown.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return SimpleSelect; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/objectSpread */ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _material_ui_core_MenuItem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/MenuItem */ "@material-ui/core/MenuItem");
+/* harmony import */ var _material_ui_core_MenuItem__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_MenuItem__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _material_ui_core_FormHelperText__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/FormHelperText */ "@material-ui/core/FormHelperText");
+/* harmony import */ var _material_ui_core_FormHelperText__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_FormHelperText__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _material_ui_core_FormControl__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/FormControl */ "@material-ui/core/FormControl");
+/* harmony import */ var _material_ui_core_FormControl__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_FormControl__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _material_ui_core_Select__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/core/Select */ "@material-ui/core/Select");
+/* harmony import */ var _material_ui_core_Select__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Select__WEBPACK_IMPORTED_MODULE_7__);
+
+
+
+var _jsxFileName = "/Users/codychoi/Desktop/meshn/components/SelectDropDown.js";
+
+
+
+
+
+function SimpleSelect(props) {
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_3___default.a.useState({
+    timeSlot: ''
+  }),
+      _React$useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__["default"])(_React$useState, 2),
+      values = _React$useState2[0],
+      setValues = _React$useState2[1];
+
+  function handleChange(event) {
+    setValues(function (oldValues) {
+      return Object(_babel_runtime_corejs2_helpers_esm_objectSpread__WEBPACK_IMPORTED_MODULE_1__["default"])({}, oldValues, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])({}, event.target.name, event.target.value));
+    });
+    props.onSelectedTimeslot(event.target.value);
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, props.type === 'booking:timeslots' && react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core_FormControl__WEBPACK_IMPORTED_MODULE_6___default.a, {
+    style: {
+      width: '100%'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core_Select__WEBPACK_IMPORTED_MODULE_7___default.a, {
+    onChange: handleChange,
+    displayEmpty: true,
+    value: values.timeSlot,
+    name: "timeSlot",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core_MenuItem__WEBPACK_IMPORTED_MODULE_4___default.a, {
+    value: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "Select available timeslot"), props.data.map(function (timeSlot) {
+    return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core_MenuItem__WEBPACK_IMPORTED_MODULE_4___default.a, {
+      key: timeSlot,
+      value: timeSlot,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35
+      },
+      __self: this
+    }, "".concat(timeSlot.startTime, " - ").concat(timeSlot.endTime));
+  }))));
+} // `${moment(timeSlot.mapValue.fields.start_time.stringValue, 'HH:mm:ss').format('h:mm a')} - ${moment(timeSlot.mapValue.fields.end_time.stringValue, 'HH:mm:ss').format('h:mm a')}`
 
 /***/ }),
 
@@ -1034,6 +1307,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-prope
 
 /***/ }),
 
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js":
+/*!****************************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-property-symbols */ "core-js/library/fn/object/get-own-property-symbols");
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js":
 /*!********************************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/object/get-prototype-of.js ***!
@@ -1042,6 +1326,17 @@ module.exports = __webpack_require__(/*! core-js/library/fn/object/get-own-prope
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! core-js/library/fn/object/get-prototype-of */ "core-js/library/fn/object/get-prototype-of");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/object/keys.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/object/keys */ "core-js/library/fn/object/keys");
 
 /***/ }),
 
@@ -1378,6 +1673,49 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _nonIterableRest; });
 function _nonIterableRest() {
   throw new TypeError("Invalid attempt to destructure non-iterable instance");
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js":
+/*!*************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/objectSpread.js ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _objectSpread; });
+/* harmony import */ var _core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/get-own-property-descriptor */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-descriptor.js");
+/* harmony import */ var _core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../core-js/object/get-own-property-symbols */ "./node_modules/@babel/runtime-corejs2/core-js/object/get-own-property-symbols.js");
+/* harmony import */ var _core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _core_js_object_keys__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
+/* harmony import */ var _core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_keys__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _defineProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+
+
+
+
+function _objectSpread(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+
+    var ownKeys = _core_js_object_keys__WEBPACK_IMPORTED_MODULE_2___default()(source);
+
+    if (typeof _core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1___default.a === 'function') {
+      ownKeys = ownKeys.concat(_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_1___default()(source).filter(function (sym) {
+        return _core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_0___default()(source, sym).enumerable;
+      }));
+    }
+
+    ownKeys.forEach(function (key) {
+      Object(_defineProperty__WEBPACK_IMPORTED_MODULE_3__["default"])(target, key, source[key]);
+    });
+  }
+
+  return target;
 }
 
 /***/ }),
@@ -2193,9 +2531,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-redux */ "react-redux");
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_11__);
 /* harmony import */ var _redux_actions_gym_actions_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../redux/actions/gym-actions.js */ "./redux/actions/gym-actions.js");
-/* harmony import */ var _components_Log__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/Log */ "./components/Log.js");
-/* harmony import */ var _components_Login__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Login */ "./components/Login.js");
+/* harmony import */ var _redux_actions_user_actions__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../redux/actions/user-actions */ "./redux/actions/user-actions.js");
+/* harmony import */ var _components_Log__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../components/Log */ "./components/Log.js");
+/* harmony import */ var _components_Login__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../components/Login */ "./components/Login.js");
 /* harmony import */ var _components_Modal__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../components/Modal */ "./components/Modal.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! next/router */ "next/router");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_17__);
 
 
 
@@ -2204,6 +2545,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _jsxFileName = "/Users/codychoi/Desktop/meshn/pages/book.js";
+
+
 
 
 
@@ -2242,6 +2585,10 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Book, [{
     key: "componentDidMount",
     value: function componentDidMount() {
+      if (this.props.onAuthListener()) {
+        next_router__WEBPACK_IMPORTED_MODULE_17___default.a.push('/');
+      }
+
       this.props.onFetchGymsRequest();
     }
   }, {
@@ -2253,50 +2600,54 @@ function (_React$Component) {
         className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a.dynamic([["3951505156", [this.props.user ? null : 'none']]]),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 39
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("p", {
         className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a.dynamic([["3951505156", [this.props.user ? null : 'none']]]),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 40
         },
         __self: this
       }, "Booking Page"), this.props.user ? this.props.gyms && this.props.gyms.map(function (gym, index) {
-        return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_Log__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_Log__WEBPACK_IMPORTED_MODULE_14__["default"], {
           data: gym,
           type: "booking",
           key: gym.name,
           openModal: _this2.openModal,
           chooseGym: _this2.props.onBookGym,
+          getBookedTimes: _this2.props.onGetBookedTimes,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 39
+            lineNumber: 45
           },
           __self: this
         });
-      }) : react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_Login__WEBPACK_IMPORTED_MODULE_14__["default"], {
+      }) : react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_Login__WEBPACK_IMPORTED_MODULE_15__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 57
         },
         __self: this
       }), this.state.isModalOpen && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_Modal__WEBPACK_IMPORTED_MODULE_16__["default"], {
         modalState: this.state.isModalOpen,
         modalAction: this.openModal,
         data: this.props.gym,
+        user: this.props.user,
+        submitGymBooking: this.props.onSubmitGymBooking,
+        bookedTimes: this.props.bookedTimes,
         type: "booking",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 59
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a, {
         id: "3951505156",
         dynamic: [this.props.user ? null : 'none'],
         __self: this
-      }, ".bottomNav{display:".concat(this.props.user ? null : 'none', ";}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2R5Y2hvaS9EZXNrdG9wL21lc2huL3BhZ2VzL2Jvb2suanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBb0QyQixBQUlVLHFDQUFDIiwiZmlsZSI6Ii9Vc2Vycy9jb2R5Y2hvaS9EZXNrdG9wL21lc2huL3BhZ2VzL2Jvb2suanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvTGF5b3V0J1xuaW1wb3J0IHsgY3JlYXRlU2VsZWN0b3IgfSBmcm9tICdyZXNlbGVjdCdcbmltcG9ydCB7IGNvbm5lY3QgfSBmcm9tICdyZWFjdC1yZWR1eCdcbmltcG9ydCB7IGJvb2tHeW0sIGZldGNoR3ltc1JlcXVlc3QgfSBmcm9tICcuLi9yZWR1eC9hY3Rpb25zL2d5bS1hY3Rpb25zLmpzJ1xuaW1wb3J0IExvZyBmcm9tICcuLi9jb21wb25lbnRzL0xvZydcbmltcG9ydCBMb2dpbiBmcm9tICcuLi9jb21wb25lbnRzL0xvZ2luJ1xuaW1wb3J0IE1vZGFsIGZyb20gJy4uL2NvbXBvbmVudHMvTW9kYWwnXG5cbmNsYXNzIEJvb2sgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xuXG4gIGNvbnN0cnVjdG9yKHByb3BzKSB7XG4gICAgc3VwZXIocHJvcHMpXG4gICAgdGhpcy5zdGF0ZSA9IHtcbiAgICAgIGlzTW9kYWxPcGVuOiBmYWxzZSxcbiAgICAgIHNlbGVjdGVkR3ltOiB7fVxuICAgIH1cbiAgfVxuXG4gIGNvbXBvbmVudERpZE1vdW50KCkge1xuICAgIHRoaXMucHJvcHMub25GZXRjaEd5bXNSZXF1ZXN0KCk7XG4gIH1cblxuICBvcGVuTW9kYWwgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7XG4gICAgICBpc01vZGFsT3BlbjogIXRoaXMuc3RhdGUuaXNNb2RhbE9wZW5cbiAgICB9KVxuICAgIFxuICB9XG5cbiAgcmVuZGVyKCkge1xuICBcbiAgICByZXR1cm4gKFxuICAgICAgPGRpdj5cbiAgICAgICAgPHA+Qm9va2luZyBQYWdlPC9wPlxuICAgICAgICB7dGhpcy5wcm9wcy51c2VyID9cbiAgICAgICAgICB0aGlzLnByb3BzLmd5bXMgJiZcbiAgICAgICAgICAgIHRoaXMucHJvcHMuZ3ltcy5tYXAoKGd5bSwgaW5kZXgpID0+IHtcbiAgICAgICAgICAgICAgcmV0dXJuIChcbiAgICAgICAgICAgICAgICA8TG9nIFxuICAgICAgICAgICAgICAgICAgICBkYXRhPXtneW19XG4gICAgICAgICAgICAgICAgICAgIHR5cGU9J2Jvb2tpbmcnXG4gICAgICAgICAgICAgICAgICAgIGtleT17Z3ltLm5hbWV9XG4gICAgICAgICAgICAgICAgICAgIG9wZW5Nb2RhbD17dGhpcy5vcGVuTW9kYWx9XG4gICAgICAgICAgICAgICAgICAgIGNob29zZUd5bT17dGhpcy5wcm9wcy5vbkJvb2tHeW19XG4gICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICApXG5cbiAgICAgICAgICAgIH0pXG4gICAgICAgIDpcbiAgICAgICAgPExvZ2luIC8+XG4gICAgICAgIH1cbiAgICAgICAge3RoaXMuc3RhdGUuaXNNb2RhbE9wZW4gJiYgPE1vZGFsIG1vZGFsU3RhdGU9e3RoaXMuc3RhdGUuaXNNb2RhbE9wZW59IG1vZGFsQWN0aW9uPXt0aGlzLm9wZW5Nb2RhbH0gZGF0YT17dGhpcy5wcm9wcy5neW19IHR5cGU9XCJib29raW5nXCIvPn1cbiAgICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcbiAgICAgICAgICAuYm90dG9tTmF2IHtcbiAgICAgICAgICAgIGRpc3BsYXk6ICR7dGhpcy5wcm9wcy51c2VyID8gbnVsbCA6ICdub25lJ31cbiAgICAgICAgICB9XG4gICAgICAgIGB9XG4gICAgICAgIDwvc3R5bGU+XG4gICAgICA8L2Rpdj5cbiAgICApXG4gIH1cblxufVxuXG5jb25zdCBneW1TZWxlY3RvciA9IGNyZWF0ZVNlbGVjdG9yKFxuICBzdGF0ZSA9PiBzdGF0ZS5neW1zLFxuICBneW1zID0+IGd5bXNcbilcblxuY29uc3QgYm9va2VkR3ltU2VsZWN0b3IgPSBjcmVhdGVTZWxlY3RvcihcbiAgc3RhdGUgPT4gc3RhdGUuZ3ltLFxuICBneW0gPT4gZ3ltXG4pXG5cbmNvbnN0IHVzZXJTZWxlY3RvciA9IGNyZWF0ZVNlbGVjdG9yKFxuICBzdGF0ZSA9PiBzdGF0ZS51c2VyLFxuICB1c2VyID0+IHVzZXJcbilcblxuY29uc3QgbWFwU3RhdGVUb1Byb3BzID0gY3JlYXRlU2VsZWN0b3IoXG4gIGd5bVNlbGVjdG9yLFxuICBib29rZWRHeW1TZWxlY3RvcixcbiAgdXNlclNlbGVjdG9yLFxuICAoZ3ltcywgZ3ltLCB1c2VyKSA9PiAoe1xuICAgIGd5bXMsXG4gICAgZ3ltLFxuICAgIHVzZXJcbiAgfSlcbik7XG5cbmNvbnN0IG1hcEFjdGlvbnNUb1Byb3BzID0ge1xuICBvbkJvb2tHeW06IGJvb2tHeW0sXG4gIG9uRmV0Y2hHeW1zUmVxdWVzdDogZmV0Y2hHeW1zUmVxdWVzdFxufVxuXG5leHBvcnQgZGVmYXVsdCBMYXlvdXQoY29ubmVjdChtYXBTdGF0ZVRvUHJvcHMsIG1hcEFjdGlvbnNUb1Byb3BzKShCb29rKSk7Il19 */\n/*@ sourceURL=/Users/codychoi/Desktop/meshn/pages/book.js */")));
+      }, ".bottomNav{display:".concat(this.props.user ? null : 'none', ";}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9jb2R5Y2hvaS9EZXNrdG9wL21lc2huL3BhZ2VzL2Jvb2suanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBOEQyQixBQUlVLHFDQUFDIiwiZmlsZSI6Ii9Vc2Vycy9jb2R5Y2hvaS9EZXNrdG9wL21lc2huL3BhZ2VzL2Jvb2suanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvTGF5b3V0J1xuaW1wb3J0IHsgY3JlYXRlU2VsZWN0b3IgfSBmcm9tICdyZXNlbGVjdCdcbmltcG9ydCB7IGNvbm5lY3QgfSBmcm9tICdyZWFjdC1yZWR1eCdcbmltcG9ydCB7IGJvb2tHeW0sIGZldGNoR3ltc1JlcXVlc3QsIHN1Ym1pdEd5bUJvb2tpbmcsIGdldEJvb2tlZFRpbWVzIH0gZnJvbSAnLi4vcmVkdXgvYWN0aW9ucy9neW0tYWN0aW9ucy5qcydcbmltcG9ydCB7YXV0aExpc3RlbmVyfSBmcm9tICcuLi9yZWR1eC9hY3Rpb25zL3VzZXItYWN0aW9ucydcbmltcG9ydCBMb2cgZnJvbSAnLi4vY29tcG9uZW50cy9Mb2cnXG5pbXBvcnQgTG9naW4gZnJvbSAnLi4vY29tcG9uZW50cy9Mb2dpbidcbmltcG9ydCBNb2RhbCBmcm9tICcuLi9jb21wb25lbnRzL01vZGFsJ1xuaW1wb3J0IFJvdXRlciBmcm9tICduZXh0L3JvdXRlcidcblxuXG5jbGFzcyBCb29rIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcblxuICBjb25zdHJ1Y3Rvcihwcm9wcykge1xuICAgIHN1cGVyKHByb3BzKVxuICAgIHRoaXMuc3RhdGUgPSB7XG4gICAgICBpc01vZGFsT3BlbjogZmFsc2UsXG4gICAgICBzZWxlY3RlZEd5bToge31cbiAgICB9XG4gIH1cblxuICBjb21wb25lbnREaWRNb3VudCgpIHtcbiAgICBpZiAodGhpcy5wcm9wcy5vbkF1dGhMaXN0ZW5lcigpKSB7XG4gICAgICBSb3V0ZXIucHVzaCgnLycpXG4gICAgfVxuICAgIHRoaXMucHJvcHMub25GZXRjaEd5bXNSZXF1ZXN0KCk7XG4gIH1cblxuICBvcGVuTW9kYWwgPSAoKSA9PiB7XG4gICAgdGhpcy5zZXRTdGF0ZSh7XG4gICAgICBpc01vZGFsT3BlbjogIXRoaXMuc3RhdGUuaXNNb2RhbE9wZW5cbiAgICB9KVxuICAgIFxuICB9XG5cbiAgcmVuZGVyKCkge1xuICBcbiAgICByZXR1cm4gKFxuICAgICAgPGRpdj5cbiAgICAgICAgPHA+Qm9va2luZyBQYWdlPC9wPlxuICAgICAgICB7dGhpcy5wcm9wcy51c2VyID9cbiAgICAgICAgICB0aGlzLnByb3BzLmd5bXMgJiZcbiAgICAgICAgICAgIHRoaXMucHJvcHMuZ3ltcy5tYXAoKGd5bSwgaW5kZXgpID0+IHtcbiAgICAgICAgICAgICAgcmV0dXJuIChcbiAgICAgICAgICAgICAgICA8TG9nIFxuICAgICAgICAgICAgICAgICAgICBkYXRhPXtneW19XG4gICAgICAgICAgICAgICAgICAgIHR5cGU9J2Jvb2tpbmcnXG4gICAgICAgICAgICAgICAgICAgIGtleT17Z3ltLm5hbWV9XG4gICAgICAgICAgICAgICAgICAgIG9wZW5Nb2RhbD17dGhpcy5vcGVuTW9kYWx9XG4gICAgICAgICAgICAgICAgICAgIGNob29zZUd5bT17dGhpcy5wcm9wcy5vbkJvb2tHeW19XG4gICAgICAgICAgICAgICAgICAgIGdldEJvb2tlZFRpbWVzPXt0aGlzLnByb3BzLm9uR2V0Qm9va2VkVGltZXN9XG4gICAgICAgICAgICAgICAgICAvPlxuICAgICAgICAgICAgICApXG5cbiAgICAgICAgICAgIH0pXG4gICAgICAgIDpcbiAgICAgICAgPExvZ2luIC8+XG4gICAgICAgIH1cbiAgICAgICAge3RoaXMuc3RhdGUuaXNNb2RhbE9wZW4gJiYgPE1vZGFsIG1vZGFsU3RhdGU9e3RoaXMuc3RhdGUuaXNNb2RhbE9wZW59IG1vZGFsQWN0aW9uPXt0aGlzLm9wZW5Nb2RhbH0gZGF0YT17dGhpcy5wcm9wcy5neW19XG4gICAgICAgIHVzZXI9e3RoaXMucHJvcHMudXNlcn1cbiAgICAgICAgc3VibWl0R3ltQm9va2luZz17dGhpcy5wcm9wcy5vblN1Ym1pdEd5bUJvb2tpbmd9XG4gICAgICAgIGJvb2tlZFRpbWVzPXt0aGlzLnByb3BzLmJvb2tlZFRpbWVzfSB0eXBlPVwiYm9va2luZ1wiLz59XG4gICAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXG4gICAgICAgICAgLmJvdHRvbU5hdiB7XG4gICAgICAgICAgICBkaXNwbGF5OiAke3RoaXMucHJvcHMudXNlciA/IG51bGwgOiAnbm9uZSd9XG4gICAgICAgICAgfVxuICAgICAgICBgfVxuICAgICAgICA8L3N0eWxlPlxuICAgICAgPC9kaXY+XG4gICAgKVxuICB9XG5cbn1cblxuY29uc3QgZ3ltU2VsZWN0b3IgPSBjcmVhdGVTZWxlY3RvcihcbiAgc3RhdGUgPT4gc3RhdGUuZ3ltcyxcbiAgZ3ltcyA9PiBneW1zXG4pXG5cbmNvbnN0IGJvb2tlZEd5bVNlbGVjdG9yID0gY3JlYXRlU2VsZWN0b3IoXG4gIHN0YXRlID0+IHN0YXRlLmd5bSxcbiAgZ3ltID0+IGd5bVxuKVxuXG5jb25zdCB1c2VyU2VsZWN0b3IgPSBjcmVhdGVTZWxlY3RvcihcbiAgc3RhdGUgPT4gc3RhdGUudXNlcixcbiAgdXNlciA9PiB1c2VyXG4pXG5cbmNvbnN0IGJvb2tlZFRpbWVzU2VsZWN0b3IgPSBjcmVhdGVTZWxlY3RvcihcbiAgc3RhdGUgPT4gc3RhdGUuYm9va2VkVGltZXMsXG4gIGJvb2tlZFRpbWVzID0+IGJvb2tlZFRpbWVzXG4pXG5cbmNvbnN0IG1hcFN0YXRlVG9Qcm9wcyA9IGNyZWF0ZVNlbGVjdG9yKFxuICBneW1TZWxlY3RvcixcbiAgYm9va2VkR3ltU2VsZWN0b3IsXG4gIHVzZXJTZWxlY3RvcixcbiAgYm9va2VkVGltZXNTZWxlY3RvcixcbiAgKGd5bXMsIGd5bSwgdXNlciwgYm9va2VkVGltZXMpID0+ICh7XG4gICAgZ3ltcyxcbiAgICBneW0sXG4gICAgdXNlcixcbiAgICBib29rZWRUaW1lc1xuICB9KVxuKTtcblxuY29uc3QgbWFwQWN0aW9uc1RvUHJvcHMgPSB7XG4gIG9uQm9va0d5bTogYm9va0d5bSxcbiAgb25GZXRjaEd5bXNSZXF1ZXN0OiBmZXRjaEd5bXNSZXF1ZXN0LFxuICBvblN1Ym1pdEd5bUJvb2tpbmc6IHN1Ym1pdEd5bUJvb2tpbmcsXG4gIG9uR2V0Qm9va2VkVGltZXM6IGdldEJvb2tlZFRpbWVzLFxuICBvbkF1dGhMaXN0ZW5lcjogYXV0aExpc3RlbmVyXG59XG5cbmV4cG9ydCBkZWZhdWx0IExheW91dChjb25uZWN0KG1hcFN0YXRlVG9Qcm9wcywgbWFwQWN0aW9uc1RvUHJvcHMpKEJvb2spKTsiXX0= */\n/*@ sourceURL=/Users/codychoi/Desktop/meshn/pages/book.js */")));
     }
   }]);
 
@@ -2318,16 +2669,25 @@ var userSelector = Object(reselect__WEBPACK_IMPORTED_MODULE_10__["createSelector
 }, function (user) {
   return user;
 });
-var mapStateToProps = Object(reselect__WEBPACK_IMPORTED_MODULE_10__["createSelector"])(gymSelector, bookedGymSelector, userSelector, function (gyms, gym, user) {
+var bookedTimesSelector = Object(reselect__WEBPACK_IMPORTED_MODULE_10__["createSelector"])(function (state) {
+  return state.bookedTimes;
+}, function (bookedTimes) {
+  return bookedTimes;
+});
+var mapStateToProps = Object(reselect__WEBPACK_IMPORTED_MODULE_10__["createSelector"])(gymSelector, bookedGymSelector, userSelector, bookedTimesSelector, function (gyms, gym, user, bookedTimes) {
   return {
     gyms: gyms,
     gym: gym,
-    user: user
+    user: user,
+    bookedTimes: bookedTimes
   };
 });
 var mapActionsToProps = {
   onBookGym: _redux_actions_gym_actions_js__WEBPACK_IMPORTED_MODULE_12__["bookGym"],
-  onFetchGymsRequest: _redux_actions_gym_actions_js__WEBPACK_IMPORTED_MODULE_12__["fetchGymsRequest"]
+  onFetchGymsRequest: _redux_actions_gym_actions_js__WEBPACK_IMPORTED_MODULE_12__["fetchGymsRequest"],
+  onSubmitGymBooking: _redux_actions_gym_actions_js__WEBPACK_IMPORTED_MODULE_12__["submitGymBooking"],
+  onGetBookedTimes: _redux_actions_gym_actions_js__WEBPACK_IMPORTED_MODULE_12__["getBookedTimes"],
+  onAuthListener: _redux_actions_user_actions__WEBPACK_IMPORTED_MODULE_13__["authListener"]
 };
 /* harmony default export */ __webpack_exports__["default"] = (Object(_components_Layout__WEBPACK_IMPORTED_MODULE_9__["default"])(Object(react_redux__WEBPACK_IMPORTED_MODULE_11__["connect"])(mapStateToProps, mapActionsToProps)(Book)));
 
@@ -2337,7 +2697,7 @@ var mapActionsToProps = {
 /*!**************************************!*\
   !*** ./redux/actions/gym-actions.js ***!
   \**************************************/
-/*! exports provided: SET_GYMS, GYM_BOOKED, SHOW_ERROR, setGymData, bookGym, showError, fetchGymsRequest */
+/*! exports provided: SET_GYMS, GYM_BOOKED, SHOW_ERROR, GYM_TIMES_BOOKED, USER_TIMES_BOOKED, setGymData, bookGym, showError, setGymBookedTimes, setUserBookedTimes, submitGymBooking, getBookedTimes, fetchGymsRequest */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2345,15 +2705,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SET_GYMS", function() { return SET_GYMS; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GYM_BOOKED", function() { return GYM_BOOKED; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SHOW_ERROR", function() { return SHOW_ERROR; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GYM_TIMES_BOOKED", function() { return GYM_TIMES_BOOKED; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "USER_TIMES_BOOKED", function() { return USER_TIMES_BOOKED; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setGymData", function() { return setGymData; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "bookGym", function() { return bookGym; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "showError", function() { return showError; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setGymBookedTimes", function() { return setGymBookedTimes; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setUserBookedTimes", function() { return setUserBookedTimes; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "submitGymBooking", function() { return submitGymBooking; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getBookedTimes", function() { return getBookedTimes; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fetchGymsRequest", function() { return fetchGymsRequest; });
 /* harmony import */ var _components_Requests_FirebaseInstance__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/Requests/FirebaseInstance */ "./components/Requests/FirebaseInstance.js");
 
 var SET_GYMS = 'gyms:setGyms';
 var GYM_BOOKED = 'gym:gymBooked';
 var SHOW_ERROR = 'gyms:showError';
+var GYM_TIMES_BOOKED = 'gym:timesBooked';
+var USER_TIMES_BOOKED = 'user:timesBooked';
 var setGymData = function setGymData(gyms) {
   return {
     type: SET_GYMS,
@@ -2363,7 +2731,6 @@ var setGymData = function setGymData(gyms) {
   };
 };
 var bookGym = function bookGym(gym) {
-  console.log(gym);
   return {
     type: GYM_BOOKED,
     payload: {
@@ -2377,6 +2744,65 @@ var showError = function showError() {
     payload: {
       error: 'Error when fetching gyms'
     }
+  };
+};
+var setGymBookedTimes = function setGymBookedTimes(bookedTimes) {
+  return {
+    type: GYM_TIMES_BOOKED,
+    payload: {
+      bookedTimes: bookedTimes
+    }
+  };
+};
+var setUserBookedTimes = function setUserBookedTimes(bookedTimes) {
+  return {
+    type: USER_TIMES_BOOKED,
+    payload: {
+      bookedTimes: bookedTimes
+    }
+  };
+};
+var submitGymBooking = function submitGymBooking(postData) {
+  return function (dispatch) {
+    _components_Requests_FirebaseInstance__WEBPACK_IMPORTED_MODULE_0__["default"].post('/booked_logs', {
+      fields: postData
+    }).then(function (response) {}, function (error) {
+      console.log(error);
+    });
+  };
+};
+var getBookedTimes = function getBookedTimes(ref, type) {
+  return function (dispatch) {
+    _components_Requests_FirebaseInstance__WEBPACK_IMPORTED_MODULE_0__["default"].get('/booked_logs').then(function (response) {
+      var bookedDaysArray = [];
+
+      if (response.data.documents) {
+        if (type === 'gym') {
+          response.data.documents.forEach(function (bookedTimes) {
+            if (bookedTimes.fields.gym_id.stringValue === ref) {
+              bookedDaysArray.push(bookedTimes.fields.selected_date.stringValue);
+            }
+          });
+          dispatch(setGymBookedTimes(bookedDaysArray));
+        } else if (type === 'user') {
+          response.data.documents.forEach(function (bookedTimes) {
+            if (bookedTimes.fields.user_email.stringValue === ref) {
+              bookedDaysArray.push({
+                day: bookedTimes.fields.selected_date.stringValue,
+                start_time: bookedTimes.fields.selected_start_time.stringValue,
+                end_time: bookedTimes.fields.selected_end_time.stringValue,
+                gym_name: bookedTimes.fields.gym_name.stringValue,
+                gym_location: bookedTimes.fields.gym_location.stringValue,
+                modified: bookedTimes.fields.modified.stringValue
+              });
+            }
+          });
+          dispatch(setUserBookedTimes(bookedDaysArray));
+        }
+      }
+    }, function (error) {
+      dispatch(showError());
+    });
   };
 };
 var fetchGymsRequest = function fetchGymsRequest() {
@@ -2449,14 +2875,50 @@ var showError = function showError() {
 };
 var apiRequest = function apiRequest() {
   return function (dispatch) {
-    _components_Requests_FirebaseInstance__WEBPACK_IMPORTED_MODULE_0__["default"].get('/data').then(function (response) {
-      // dispatch(updateUser(response.newUser))
-      console.log(response);
+    _components_Requests_FirebaseInstance__WEBPACK_IMPORTED_MODULE_0__["default"].get('/data').then(function (response) {// dispatch(updateUser(response.newUser))
     }, function (error) {
       dispatch(showError());
     });
   };
 };
+
+/***/ }),
+
+/***/ "./redux/reducers/booked-times-reducer.js":
+/*!************************************************!*\
+  !*** ./redux/reducers/booked-times-reducer.js ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _actions_gym_actions__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../actions/gym-actions */ "./redux/actions/gym-actions.js");
+
+
+var bookedTimesReducer = function bookedTimesReducer() {
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
+
+  var _ref = arguments.length > 1 ? arguments[1] : undefined,
+      type = _ref.type,
+      payload = _ref.payload;
+
+  switch (type) {
+    case _actions_gym_actions__WEBPACK_IMPORTED_MODULE_0__["GYM_TIMES_BOOKED"]:
+      return payload.bookedTimes;
+
+    case _actions_gym_actions__WEBPACK_IMPORTED_MODULE_0__["USER_TIMES_BOOKED"]:
+      return payload.bookedTimes;
+
+    case _actions_gym_actions__WEBPACK_IMPORTED_MODULE_0__["SHOW_ERROR"]:
+      return payload.error;
+
+    default:
+      return state;
+  }
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (bookedTimesReducer);
 
 /***/ }),
 
@@ -2598,8 +3060,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _reducers_user_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./reducers/user-reducer */ "./redux/reducers/user-reducer.js");
 /* harmony import */ var _reducers_gym_reducer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./reducers/gym-reducer */ "./redux/reducers/gym-reducer.js");
 /* harmony import */ var _reducers_selected_gym_reducer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./reducers/selected-gym-reducer */ "./redux/reducers/selected-gym-reducer.js");
-/* harmony import */ var redux_thunk__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! redux-thunk */ "redux-thunk");
-/* harmony import */ var redux_thunk__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(redux_thunk__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _reducers_booked_times_reducer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./reducers/booked-times-reducer */ "./redux/reducers/booked-times-reducer.js");
+/* harmony import */ var redux_thunk__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! redux-thunk */ "redux-thunk");
+/* harmony import */ var redux_thunk__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(redux_thunk__WEBPACK_IMPORTED_MODULE_7__);
+
 
 
 
@@ -2611,18 +3075,19 @@ var allReducers = Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])(
   products: _reducers_product_reducer__WEBPACK_IMPORTED_MODULE_2__["default"],
   user: _reducers_user_reducer__WEBPACK_IMPORTED_MODULE_3__["default"],
   gyms: _reducers_gym_reducer__WEBPACK_IMPORTED_MODULE_4__["default"],
-  gym: _reducers_selected_gym_reducer__WEBPACK_IMPORTED_MODULE_5__["default"]
+  gym: _reducers_selected_gym_reducer__WEBPACK_IMPORTED_MODULE_5__["default"],
+  bookedTimes: _reducers_booked_times_reducer__WEBPACK_IMPORTED_MODULE_6__["default"]
 });
-var allStoreEnhancers = Object(redux__WEBPACK_IMPORTED_MODULE_0__["compose"])(Object(redux_devtools_extension__WEBPACK_IMPORTED_MODULE_1__["composeWithDevTools"])(Object(redux__WEBPACK_IMPORTED_MODULE_0__["applyMiddleware"])(redux_thunk__WEBPACK_IMPORTED_MODULE_6___default.a)));
+var allStoreEnhancers = Object(redux__WEBPACK_IMPORTED_MODULE_0__["compose"])(Object(redux_devtools_extension__WEBPACK_IMPORTED_MODULE_1__["composeWithDevTools"])(Object(redux__WEBPACK_IMPORTED_MODULE_0__["applyMiddleware"])(redux_thunk__WEBPACK_IMPORTED_MODULE_7___default.a)));
 var store = Object(redux__WEBPACK_IMPORTED_MODULE_0__["createStore"])(allReducers, allStoreEnhancers);
 /* harmony default export */ __webpack_exports__["default"] = (store);
 
 /***/ }),
 
-/***/ "./styles/calendar.scss":
-/*!******************************!*\
-  !*** ./styles/calendar.scss ***!
-  \******************************/
+/***/ "./styles/calendarModal.scss":
+/*!***********************************!*\
+  !*** ./styles/calendarModal.scss ***!
+  \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2708,6 +3173,39 @@ module.exports = require("@material-ui/core/ExpansionPanelSummary");
 
 /***/ }),
 
+/***/ "@material-ui/core/FormControl":
+/*!************************************************!*\
+  !*** external "@material-ui/core/FormControl" ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/FormControl");
+
+/***/ }),
+
+/***/ "@material-ui/core/FormHelperText":
+/*!***************************************************!*\
+  !*** external "@material-ui/core/FormHelperText" ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/FormHelperText");
+
+/***/ }),
+
+/***/ "@material-ui/core/MenuItem":
+/*!*********************************************!*\
+  !*** external "@material-ui/core/MenuItem" ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/MenuItem");
+
+/***/ }),
+
 /***/ "@material-ui/core/Modal":
 /*!******************************************!*\
   !*** external "@material-ui/core/Modal" ***!
@@ -2727,6 +3225,17 @@ module.exports = require("@material-ui/core/Modal");
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/Paper");
+
+/***/ }),
+
+/***/ "@material-ui/core/Select":
+/*!*******************************************!*\
+  !*** external "@material-ui/core/Select" ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Select");
 
 /***/ }),
 
@@ -2884,6 +3393,17 @@ module.exports = require("core-js/library/fn/object/get-own-property-descriptor"
 
 /***/ }),
 
+/***/ "core-js/library/fn/object/get-own-property-symbols":
+/*!*********************************************************************!*\
+  !*** external "core-js/library/fn/object/get-own-property-symbols" ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/library/fn/object/get-own-property-symbols");
+
+/***/ }),
+
 /***/ "core-js/library/fn/object/get-prototype-of":
 /*!*************************************************************!*\
   !*** external "core-js/library/fn/object/get-prototype-of" ***!
@@ -2892,6 +3412,17 @@ module.exports = require("core-js/library/fn/object/get-own-property-descriptor"
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/object/get-prototype-of");
+
+/***/ }),
+
+/***/ "core-js/library/fn/object/keys":
+/*!*************************************************!*\
+  !*** external "core-js/library/fn/object/keys" ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("core-js/library/fn/object/keys");
 
 /***/ }),
 
@@ -3027,6 +3558,17 @@ module.exports = require("next-server/dist/lib/utils");
 
 /***/ }),
 
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/router");
+
+/***/ }),
+
 /***/ "prop-types":
 /*!*****************************!*\
   !*** external "prop-types" ***!
@@ -3145,6 +3687,17 @@ module.exports = require("reselect");
 /***/ (function(module, exports) {
 
 module.exports = require("styled-jsx/style");
+
+/***/ }),
+
+/***/ "sweetalert2":
+/*!******************************!*\
+  !*** external "sweetalert2" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("sweetalert2");
 
 /***/ }),
 

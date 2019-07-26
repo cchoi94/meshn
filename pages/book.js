@@ -1,10 +1,13 @@
 import Layout from '../components/Layout'
 import { createSelector } from 'reselect'
 import { connect } from 'react-redux'
-import { bookGym, fetchGymsRequest } from '../redux/actions/gym-actions.js'
+import { bookGym, fetchGymsRequest, submitGymBooking, getBookedTimes } from '../redux/actions/gym-actions.js'
+import {authListener} from '../redux/actions/user-actions'
 import Log from '../components/Log'
 import Login from '../components/Login'
 import Modal from '../components/Modal'
+import Router from 'next/router'
+
 
 class Book extends React.Component {
 
@@ -17,6 +20,9 @@ class Book extends React.Component {
   }
 
   componentDidMount() {
+    if (this.props.onAuthListener()) {
+      Router.push('/')
+    }
     this.props.onFetchGymsRequest();
   }
 
@@ -42,6 +48,7 @@ class Book extends React.Component {
                     key={gym.name}
                     openModal={this.openModal}
                     chooseGym={this.props.onBookGym}
+                    getBookedTimes={this.props.onGetBookedTimes}
                   />
               )
 
@@ -49,7 +56,10 @@ class Book extends React.Component {
         :
         <Login />
         }
-        {this.state.isModalOpen && <Modal modalState={this.state.isModalOpen} modalAction={this.openModal} data={this.props.gym} type="booking"/>}
+        {this.state.isModalOpen && <Modal modalState={this.state.isModalOpen} modalAction={this.openModal} data={this.props.gym}
+        user={this.props.user}
+        submitGymBooking={this.props.onSubmitGymBooking}
+        bookedTimes={this.props.bookedTimes} type="booking"/>}
         <style jsx global>{`
           .bottomNav {
             display: ${this.props.user ? null : 'none'}
@@ -77,20 +87,30 @@ const userSelector = createSelector(
   user => user
 )
 
+const bookedTimesSelector = createSelector(
+  state => state.bookedTimes,
+  bookedTimes => bookedTimes
+)
+
 const mapStateToProps = createSelector(
   gymSelector,
   bookedGymSelector,
   userSelector,
-  (gyms, gym, user) => ({
+  bookedTimesSelector,
+  (gyms, gym, user, bookedTimes) => ({
     gyms,
     gym,
-    user
+    user,
+    bookedTimes
   })
 );
 
 const mapActionsToProps = {
   onBookGym: bookGym,
-  onFetchGymsRequest: fetchGymsRequest
+  onFetchGymsRequest: fetchGymsRequest,
+  onSubmitGymBooking: submitGymBooking,
+  onGetBookedTimes: getBookedTimes,
+  onAuthListener: authListener
 }
 
 export default Layout(connect(mapStateToProps, mapActionsToProps)(Book));
