@@ -1,1 +1,0 @@
-{"ast":null,"code":"var productsReducer = function productsReducer() {\n  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];\n  var action = arguments.length > 1 ? arguments[1] : undefined;\n  return state;\n};\n\nexport default productsReducer;","map":null,"metadata":{},"sourceType":"module"}

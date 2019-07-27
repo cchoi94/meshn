@@ -1,0 +1,8 @@
+[build.environment]
+  API_KEY = AIzaSyCmKj4wDlndCmp-LbQ92bGHWQFIGSK0TIA
+    AUTH_DOMAIN = meshn-ae813.firebaseapp.com
+    DATABASE_URL = https://meshn-ae813.firebaseio.com
+    PROJECT_ID = meshn-ae813
+    STORAGE_BUCKET = 
+    MESSAGING_SENDER_ID = 225251758363
+    SITE_KEY = 6LfEIa8UAAAAANTN6mzstBGrVBOFKBAXwbNe6Pkh

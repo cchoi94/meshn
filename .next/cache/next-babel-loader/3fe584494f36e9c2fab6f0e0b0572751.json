@@ -1,1 +1,0 @@
-{"ast":null,"code":"import axios from 'axios';\nvar instance = axios.create({\n  baseURL: 'https://firestore.googleapis.com/v1/projects/meshn-ae813/databases/(default)/documents'\n});\nexport default instance;","map":null,"metadata":{},"sourceType":"module"}
