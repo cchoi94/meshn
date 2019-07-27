@@ -1,0 +1,30 @@
+.bottomNav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.container {
+  padding: 16px;
+  margin-bottom: 54px;
+  overflow: auto; }
+
+.modalContainer {
+  background: #fff;
+  margin: 16px;
+  padding: 16px; }
+
+.dropdown {
+  padding: 16px 0; }
+
+.modalBox {
+  z-index: 10 !important; }
+
+.modalContainer {
+  z-index: 5; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/
