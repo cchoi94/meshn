@@ -25,12 +25,16 @@ export default class Log extends React.Component {
   render() {
     const {data, type} = this.props
 
+    data.sort((a,b) => {
+      return new Date(a.day) - new Date(b.day)
+    })
+
   return (
-    <div className="container">
+    <div>
       {type === 'booking' &&
         <Paper>
           <div className="logContainer">
-            <h1>
+            <h1 className="gymName">
               {data.fields.name.stringValue}
             </h1>
             <img src="https://via.placeholder.com/240x90C" alt={`${data.fields.name} image`}/>
@@ -70,30 +74,28 @@ export default class Log extends React.Component {
       }
       {(type === 'user' && data) &&
         data.map(log => {
-          return (
-            <Paper key={log.modified}>
-              <div className="logContainer">
-                <h1>
-                  {log.gym_name}
-                </h1>
-                <img src="https://via.placeholder.com/240x90C" alt={`${log.gym_name} image`}/>
-                <div>
-                  <p>Location: {log.gym_location}</p>
-                  <p>Time booked: {moment(log.start_time, 'HH:mm:ss').format('h:mm a')} - {moment(log.end_time, 'HH:mm:ss').format('h:mm a')}</p>
+          if(new Date(log.day) >= new Date().setDate((new Date).getDate() - 1)) {
+            return (
+              <Paper key={log.modified}>
+                <div className="logContainer">
+                  <div className="logHeader">
+                    <h1 className="gymName">{log.gym_name}</h1>
+                    <h4 className="bookedDay">Booked for: {moment(log.day).format('MMMM Do YYYY')}</h4>
+                  </div>
+                  <img src="https://via.placeholder.com/240x90C" alt={`${log.gym_name} image`}/>
+                  <div>
+                    <p>Location: {log.gym_location}</p>
+                    <p>Time booked: {moment(log.start_time, 'HH:mm:ss').format('h:mm a')} - {moment(log.end_time, 'HH:mm:ss').format('h:mm a')}</p>
+                  </div>
                 </div>
-              </div>
-            </Paper>
-          )
+              </Paper>
+            )
+          } else {
+            return null
+          }
         })}
       <style jsx>
         {`
-          .logContainer {
-            padding: 16px !important;
-            position: relative
-            height: 100%;
-            overflow: scroll;
-            margin: 16px 0;
-          }
           img {
             margin: 16px 0;
           }

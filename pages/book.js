@@ -40,24 +40,26 @@ class Book extends React.Component {
     return (
       <div>
         <AppBar title="Book a gym"/>
-        {this.props.user ?
-          this.props.gyms &&
-            this.props.gyms.map((gym, index) => {
-              return (
-                <Log 
-                    data={gym}
-                    type='booking'
-                    key={gym.name}
-                    openModal={this.openModal}
-                    chooseGym={this.props.onBookGym}
-                    getBookedTimes={this.props.onGetBookedTimes}
-                  />
-              )
+        <div className="container">
+          {this.props.user ?
+            this.props.gyms &&
+              this.props.gyms.map((gym, index) => {
+                return (
+                  <Log 
+                      data={gym}
+                      type='booking'
+                      key={gym.name}
+                      openModal={this.openModal}
+                      chooseGym={this.props.onBookGym}
+                      getBookedTimes={this.props.onGetBookedTimes}
+                    />
+                )
 
-            })
-        :
-        <Login />
-        }
+              })
+          :
+          <Login />
+          }
+        </div>
         {this.state.isModalOpen && <Modal modalState={this.state.isModalOpen} modalAction={this.openModal} data={this.props.gym}
         user={this.props.user}
         submitGymBooking={this.props.onSubmitGymBooking}

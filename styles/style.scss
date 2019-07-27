@@ -16,9 +16,18 @@ body {
 }
 
 .AppBar {
-  position: sticky !important; 
+  position: sticky !important;
   top: 0;
   left: 0;
+  z-index: 10
+}
+
+.logContainer {
+  padding: 16px !important;
+  position: relative;
+  height: 100%;
+  overflow: scroll;
+  margin: 16px 0;
 }
 
 .modalContainer {
@@ -26,9 +35,10 @@ body {
   margin: 16px;
   padding: 16px;
   text-align: center;
-    abbr {
-      text-decoration: none;
-    }
+
+  abbr {
+    text-decoration: none;
+  }
 }
 
 .dropdown {
@@ -42,4 +52,12 @@ body {
 
 .modalContainer {
   z-index: 5;
+}
+
+.logHeader {
+  display: flex;
+  justify-content: space-between;
+    .gymName, .bookedDay {
+      margin-top: 0;
+    }
 }

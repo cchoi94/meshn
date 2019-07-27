@@ -15,44 +15,7 @@
 
 .emailContainer, .passwordContainer {
   padding: 16px;
-  width: 400px; }
-
-.bottomNav {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100vw; }
-
-body {
-  font-family: 'Open Sans', sans-serif; }
-
-.container {
-  padding: 16px;
-  margin-bottom: 54px;
-  overflow: auto; }
-
-.AppBar {
-  position: sticky !important;
-  top: 0;
-  left: 0; }
-
-.modalContainer {
-  background: #fff;
-  margin: 16px;
-  padding: 16px;
-  text-align: center; }
-  .modalContainer abbr {
-    text-decoration: none; }
-
-.dropdown {
-  padding: 32px 0;
-  text-align: left; }
-
-.modalBox {
-  z-index: 10 !important; }
-
-.modalContainer {
-  z-index: 5; }
+  width: 50vw; }
 
 .calTile, .react-calendar__navigation__label, .react-calendar__navigation__arrow {
   font-size: 14px; }
@@ -86,6 +49,57 @@ body {
 .react-calendar__tile--active {
   background: #5e5eff;
   color: #ffffff; }
+
+.bottomNav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.container {
+  padding: 16px;
+  margin-bottom: 54px;
+  overflow: auto; }
+
+.AppBar {
+  position: sticky !important;
+  top: 0;
+  left: 0;
+  z-index: 10; }
+
+.logContainer {
+  padding: 16px !important;
+  position: relative;
+  height: 100%;
+  overflow: scroll;
+  margin: 16px 0; }
+
+.modalContainer {
+  background: #fff;
+  margin: 16px;
+  padding: 16px;
+  text-align: center; }
+  .modalContainer abbr {
+    text-decoration: none; }
+
+.dropdown {
+  padding: 32px 0;
+  text-align: left; }
+
+.modalBox {
+  z-index: 10 !important; }
+
+.modalContainer {
+  z-index: 5; }
+
+.logHeader {
+  display: flex;
+  justify-content: space-between; }
+  .logHeader .gymName, .logHeader .bookedDay {
+    margin-top: 0; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

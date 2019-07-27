@@ -39,10 +39,12 @@ class Index extends React.Component {
         {this.props.user ? 
           <div>
             <AppBar title="Activity Log"/>
-            <Log 
-              type="user"
-              data={this.props.bookedTimes}
-            />
+            <div className="container">
+              <Log 
+                type="user"
+                data={this.props.bookedTimes}
+              />
+            </div>
           </div>
          : <Login />}
          <style jsx global>{`
