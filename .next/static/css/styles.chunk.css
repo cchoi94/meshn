@@ -1,3 +1,15 @@
+.calTile:disabled {
+  background: #6f6f6f;
+  color: #ffffff; }
+
+.react-calendar__tile--now {
+  background: #ff3f1d !important;
+  color: #ffffff; }
+
+.react-calendar__tile--active {
+  background: #5e5eff;
+  color: #ffffff; }
+
 .bottomNav {
   position: fixed;
   bottom: 0;
@@ -25,18 +37,6 @@ body {
 
 .modalContainer {
   z-index: 5; }
-
-.calTile:disabled {
-  background: #6f6f6f;
-  color: #ffffff; }
-
-.react-calendar__tile--now {
-  background: #ff3f1d !important;
-  color: #ffffff; }
-
-.react-calendar__tile--active {
-  background: #5e5eff;
-  color: #ffffff; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
