@@ -3,38 +3,38 @@
   "pages": {
     "/": [
       "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
-      "static/chunks/commons.b0bf80ebe7d5e76d6b98.js",
+      "static/chunks/commons.2b2d5d0ebc8c46a0f035.js",
       "static/css/styles.cb0ea563.chunk.css",
       "static/chunks/styles.cc6d0cf3b921898b2a79.js",
       "static/runtime/main-22f904dbb29c151755b1.js"
     ],
     "/_app": [
       "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
-      "static/chunks/commons.b0bf80ebe7d5e76d6b98.js",
+      "static/chunks/commons.2b2d5d0ebc8c46a0f035.js",
       "static/runtime/main-22f904dbb29c151755b1.js"
     ],
     "/_error": [
       "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
-      "static/chunks/commons.b0bf80ebe7d5e76d6b98.js",
+      "static/chunks/commons.2b2d5d0ebc8c46a0f035.js",
       "static/runtime/main-22f904dbb29c151755b1.js"
     ],
     "/book": [
       "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
-      "static/chunks/commons.b0bf80ebe7d5e76d6b98.js",
+      "static/chunks/commons.2b2d5d0ebc8c46a0f035.js",
       "static/css/styles.cb0ea563.chunk.css",
       "static/chunks/styles.cc6d0cf3b921898b2a79.js",
       "static/runtime/main-22f904dbb29c151755b1.js"
     ],
     "/index": [
       "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
-      "static/chunks/commons.b0bf80ebe7d5e76d6b98.js",
+      "static/chunks/commons.2b2d5d0ebc8c46a0f035.js",
       "static/css/styles.cb0ea563.chunk.css",
       "static/chunks/styles.cc6d0cf3b921898b2a79.js",
       "static/runtime/main-22f904dbb29c151755b1.js"
     ],
     "/profile": [
       "static/runtime/webpack-f5e50b6b501ccea2a79b.js",
-      "static/chunks/commons.b0bf80ebe7d5e76d6b98.js",
+      "static/chunks/commons.2b2d5d0ebc8c46a0f035.js",
       "static/runtime/main-22f904dbb29c151755b1.js"
     ]
   }
