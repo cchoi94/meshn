@@ -50,8 +50,9 @@ export default class Log extends React.Component {
                       <div>
                         {data.fields.availability.arrayValue.values.map((slot, index) => {
                           return(
+                            
                             <p className="timeSlot" key={index}>
-                              {slot.mapValue.fields.day.stringValue} {slot.mapValue.fields.start_time.stringValue ? `${moment(slot.mapValue.fields.start_time.stringValue, 'HH:mm:ss').format('h:mm a')} - ${moment(slot.mapValue.fields.end_time.stringValue, 'HH:mm:ss').format('h:mm a')}` : slot.mapValue.fields.status.stringValue}
+                              {slot.mapValue.fields.day.stringValue} - {slot.mapValue.fields.start_time.stringValue ? `${moment(slot.mapValue.fields.start_time.stringValue, 'HH:mm:ss').format('h:mm a')} - ${moment(slot.mapValue.fields.end_time.stringValue, 'HH:mm:ss').format('h:mm a')}` : slot.mapValue.fields.status.stringValue}
                             </p>
                           )
                         })}

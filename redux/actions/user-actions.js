@@ -25,7 +25,7 @@ export const authListener = () => {
   return dispatch => {
     firebaseApp.auth().onAuthStateChanged((user) => {
       if (user) {
-        dispatch(updateUser(user))
+        dispatch(updateUser(user));
       } else {
          dispatch(updateUser(null));
       }

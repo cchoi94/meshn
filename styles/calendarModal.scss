@@ -1,9 +1,34 @@
-.calTile {
+.calTile, .react-calendar__navigation__label, .react-calendar__navigation__arrow {
+  font-size: 14px;
 }
 
-.calTile:disabled {
-  background: #6f6f6f;
-  color: #ffffff
+.calTile {
+  padding: 8px;
+  background: none;
+    &:focus {
+      outline: none;
+    }
+    &:disabled {
+      background: #6f6f6f;
+      color: #ffffff
+    }
+}
+
+.react-calendar__navigation {
+  padding: 16px 0;
+}
+
+.react-calendar__navigation__label {
+  padding: 8px;
+  background: none;
+}
+
+.react-calendar__navigation__arrow {
+  background: none;
+}
+
+.react-calendar__month-view__weekdays {
+  margin-top: 16px;
 }
 
 .react-calendar__tile--now {

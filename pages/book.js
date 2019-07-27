@@ -7,6 +7,7 @@ import Log from '../components/Log'
 import Login from '../components/Login'
 import Modal from '../components/Modal'
 import Router from 'next/router'
+import AppBar from '../components/AppBar'
 
 
 class Book extends React.Component {
@@ -20,9 +21,10 @@ class Book extends React.Component {
   }
 
   componentDidMount() {
-    if (this.props.onAuthListener()) {
+    if (!this.props.user) {
       Router.push('/')
     }
+
     this.props.onFetchGymsRequest();
   }
 
@@ -37,7 +39,7 @@ class Book extends React.Component {
   
     return (
       <div>
-        <p>Booking Page</p>
+        <AppBar title="Book a gym"/>
         {this.props.user ?
           this.props.gyms &&
             this.props.gyms.map((gym, index) => {

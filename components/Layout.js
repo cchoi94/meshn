@@ -3,6 +3,7 @@ import store from '../redux/store'
 import BottomNav from './BottomNav'
 
 const Layout = (Page) => {
+  console.log(Page)
   return (
     class PageLayout extends React.Component {
       render() {

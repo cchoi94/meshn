@@ -2,9 +2,12 @@ import Link from 'next/link';
 import Layout from '../components/Layout'
 import { createSelector } from 'reselect'
 import { connect } from 'react-redux'
-import { updateUser, apiRequest } from '../redux/actions/user-actions'
+import { updateUser } from '../redux/actions/user-actions'
 import firebaseApp from '../components/Requests/FirebaseConfig'
 import Login from '../components/Login'
+import Router from 'next/router'
+import AppBar from '../components/AppBar'
+import Button from '@material-ui/core/Button'
 
 class Profile extends React.Component {
   constructor(props) {
@@ -16,15 +19,21 @@ class Profile extends React.Component {
     this.props.onUpdateUser(null)
   }
 
+  componentDidMount() {
+    if (!this.props.user || this.props.user === "") {
+      Router.push('/')
+    }
+  }
+
   
   render() {
     return (
       <div>
-        <p>This is the profile page</p>
+        <AppBar title="Profile"/>
         {this.props.user ?
-          <button onClick={this.logout}>Logout</button>
+          <Button variant="contained" color="primary" onClick={this.logout}>Logout</Button>
         :
-        <Login />
+        null
         }
       </div>
     );
@@ -45,7 +54,6 @@ const mapStateToProps = createSelector(
 
 const mapActionsToProps = {
   onUpdateUser: updateUser,
-  onApiRequest: apiRequest
 }
 
 export default Layout(connect(mapStateToProps, mapActionsToProps)(Profile))

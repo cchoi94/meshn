@@ -15,14 +15,25 @@ body {
   overflow: auto;
 }
 
+.AppBar {
+  position: sticky !important; 
+  top: 0;
+  left: 0;
+}
+
 .modalContainer {
   background: #fff;
   margin: 16px;
-  padding: 16px
+  padding: 16px;
+  text-align: center;
+    abbr {
+      text-decoration: none;
+    }
 }
 
 .dropdown {
-  padding: 16px 0;
+  padding: 32px 0;
+  text-align: left;
 }
 
 .modalBox {

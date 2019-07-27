@@ -1,3 +1,22 @@
+.loginPage {
+  text-align: center; }
+  .loginPage h1 {
+    margin: 64px 0; }
+
+.loginContainer {
+  border: 1px solid #1e1e1e;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%);
+  padding: 16px; }
+  .loginContainer .loginBtn {
+    margin-top: 32px; }
+
+.emailContainer, .passwordContainer {
+  padding: 16px;
+  width: 400px; }
+
 .bottomNav {
   position: fixed;
   bottom: 0;
@@ -12,19 +31,61 @@ body {
   margin-bottom: 54px;
   overflow: auto; }
 
+.AppBar {
+  position: sticky !important;
+  top: 0;
+  left: 0; }
+
 .modalContainer {
   background: #fff;
   margin: 16px;
-  padding: 16px; }
+  padding: 16px;
+  text-align: center; }
+  .modalContainer abbr {
+    text-decoration: none; }
 
 .dropdown {
-  padding: 16px 0; }
+  padding: 32px 0;
+  text-align: left; }
 
 .modalBox {
   z-index: 10 !important; }
 
 .modalContainer {
   z-index: 5; }
+
+.calTile, .react-calendar__navigation__label, .react-calendar__navigation__arrow {
+  font-size: 14px; }
+
+.calTile {
+  padding: 8px;
+  background: none; }
+  .calTile:focus {
+    outline: none; }
+  .calTile:disabled {
+    background: #6f6f6f;
+    color: #ffffff; }
+
+.react-calendar__navigation {
+  padding: 16px 0; }
+
+.react-calendar__navigation__label {
+  padding: 8px;
+  background: none; }
+
+.react-calendar__navigation__arrow {
+  background: none; }
+
+.react-calendar__month-view__weekdays {
+  margin-top: 16px; }
+
+.react-calendar__tile--now {
+  background: #ff3f1d !important;
+  color: #ffffff; }
+
+.react-calendar__tile--active {
+  background: #5e5eff;
+  color: #ffffff; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

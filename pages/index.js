@@ -7,6 +7,7 @@ import { getBookedTimes } from '../redux/actions/gym-actions.js'
 import Log from '../components/Log'
 import Login from '../components/Login'
 import firebaseApp from '../components/Requests/FirebaseConfig'
+import AppBar from '../components/AppBar'
 import "../styles/style.scss"
 
 class Index extends React.Component {
@@ -27,7 +28,7 @@ class Index extends React.Component {
         this.props.onUpdateUser(user)
         this.props.onGetBookedTimes(this.props.user.user_email, 'user')
       } else {
-         this.props.updateUser(null);
+         this.props.onUpdateUser(null);
       }
     })
   }
@@ -35,9 +36,9 @@ class Index extends React.Component {
   render() {
     return (
       <div>
-        <p>Activity Log</p>
         {this.props.user ? 
           <div>
+            <AppBar title="Activity Log"/>
             <Log 
               type="user"
               data={this.props.bookedTimes}
