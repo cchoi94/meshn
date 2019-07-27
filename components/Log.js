@@ -25,9 +25,11 @@ export default class Log extends React.Component {
   render() {
     const {data, type} = this.props
 
-    data.sort((a,b) => {
-      return new Date(a.day) - new Date(b.day)
-    })
+    if (type === 'user') {
+      data.sort((a,b) => {
+        return new Date(a.day) - new Date(b.day)
+      })
+    }
 
   return (
     <div>

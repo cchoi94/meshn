@@ -17,39 +17,6 @@
   padding: 16px;
   width: 50vw; }
 
-.calTile, .react-calendar__navigation__label, .react-calendar__navigation__arrow {
-  font-size: 14px; }
-
-.calTile {
-  padding: 8px;
-  background: none; }
-  .calTile:focus {
-    outline: none; }
-  .calTile:disabled {
-    background: #6f6f6f;
-    color: #ffffff; }
-
-.react-calendar__navigation {
-  padding: 16px 0; }
-
-.react-calendar__navigation__label {
-  padding: 8px;
-  background: none; }
-
-.react-calendar__navigation__arrow {
-  background: none; }
-
-.react-calendar__month-view__weekdays {
-  margin-top: 16px; }
-
-.react-calendar__tile--now {
-  background: #ff3f1d !important;
-  color: #ffffff; }
-
-.react-calendar__tile--active {
-  background: #5e5eff;
-  color: #ffffff; }
-
 .bottomNav {
   position: fixed;
   bottom: 0;
@@ -100,6 +67,39 @@ body {
   justify-content: space-between; }
   .logHeader .gymName, .logHeader .bookedDay {
     margin-top: 0; }
+
+.calTile, .react-calendar__navigation__label, .react-calendar__navigation__arrow {
+  font-size: 14px; }
+
+.calTile {
+  padding: 8px;
+  background: none; }
+  .calTile:focus {
+    outline: none; }
+  .calTile:disabled {
+    background: #6f6f6f;
+    color: #ffffff; }
+
+.react-calendar__navigation {
+  padding: 16px 0; }
+
+.react-calendar__navigation__label {
+  padding: 8px;
+  background: none; }
+
+.react-calendar__navigation__arrow {
+  background: none; }
+
+.react-calendar__month-view__weekdays {
+  margin-top: 16px; }
+
+.react-calendar__tile--now {
+  background: #ff3f1d !important;
+  color: #ffffff; }
+
+.react-calendar__tile--active {
+  background: #5e5eff;
+  color: #ffffff; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
