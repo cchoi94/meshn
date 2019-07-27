@@ -22,7 +22,8 @@ var config = {
   databaseURL: "https://meshn-ae813.firebaseio.com",
   projectId: "meshn-ae813",
   storageBucket: process.env.STORAGE_BUCKET,
-  messagingSenderId: "225251758363"
+  messagingSenderId: "225251758363",
+  appId: process.env.APP_ID
 }; // export const db = firebase.initializeApp(config).firestore();
 
 /* harmony default export */ __webpack_exports__["default"] = (!firebase_app__WEBPACK_IMPORTED_MODULE_0___default.a.apps.length ? firebase_app__WEBPACK_IMPORTED_MODULE_0___default.a.initializeApp(config) : firebase_app__WEBPACK_IMPORTED_MODULE_0___default.a.app());
@@ -31,4 +32,4 @@ var config = {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.164803704ac253e007e8.hot-update.js.map
+//# sourceMappingURL=index.js.002680c4ba38a0058ed9.hot-update.js.map

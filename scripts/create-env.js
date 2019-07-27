@@ -8,6 +8,10 @@ fs.writeFileSync('./.env', `DATABASE_URL=${process.env.DATABASE_UR}\n`)
 
 fs.writeFileSync('./.env', `PROJECT_ID=${process.env.PROJECT_ID}\n`)
 
+fs.writeFileSync('./.env', `APP_ID=${process.env.APP_ID}\n`)
+
+fs.writeFileSync('./.env', `STORAGE_BUCKET=${process.env.STORAGE_BUCKET}\n`)
+
 fs.writeFileSync('./.env', `MESSAGING_SENDER_ID=${process.env.MESSAGING_SENDER_ID}\n`)
 
 fs.writeFileSync('./.env', `SITE_KEY=${process.env.SITE_KEY}\n`)
