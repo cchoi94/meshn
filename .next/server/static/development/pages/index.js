@@ -821,9 +821,9 @@ var config = {
   authDomain: "meshn-ae813.firebaseapp.com",
   databaseURL: "https://meshn-ae813.firebaseio.com",
   projectId: "meshn-ae813",
-  storageBucket: process.env.STORAGE_BUCKET,
+  storageBucket: "meshn-ae813.appspot.com",
   messagingSenderId: "225251758363",
-  appId: process.env.APP_ID
+  appId: "1:225251758363:web:284eef8dde2a5c45"
 }; // export const db = firebase.initializeApp(config).firestore();
 
 /* harmony default export */ __webpack_exports__["default"] = (!firebase_app__WEBPACK_IMPORTED_MODULE_0___default.a.apps.length ? firebase_app__WEBPACK_IMPORTED_MODULE_0___default.a.initializeApp(config) : firebase_app__WEBPACK_IMPORTED_MODULE_0___default.a.app());
