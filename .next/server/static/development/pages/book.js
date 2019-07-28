@@ -988,6 +988,7 @@ function (_React$Component) {
       var selectedDateTimeSlots = [];
 
       _this.setState({
+        userSelectedTimeSlot: null,
         isDateSelected: true,
         selectedDate: day,
         selectedDateTimeSlots: selectedDateTimeSlots
@@ -1023,8 +1024,8 @@ function (_React$Component) {
 
       var convertedDate = _this.state.selectedDate.toString().slice(0, 15);
 
-      var convertedStartTime = moment__WEBPACK_IMPORTED_MODULE_13__(_this.state.userSelectedTimeSlot.startTime, 'HH:mm:ss').format('HH:mm a');
-      var convertedEndTime = moment__WEBPACK_IMPORTED_MODULE_13__(_this.state.userSelectedTimeSlot.endTime, 'HH:mm:ss').format('HH:mm a');
+      var convertedStartTime = moment__WEBPACK_IMPORTED_MODULE_13__(_this.state.userSelectedTimeSlot.startTime, 'HH:mm:ss').format('h:mm a');
+      var convertedEndTime = moment__WEBPACK_IMPORTED_MODULE_13__(_this.state.userSelectedTimeSlot.endTime, 'HH:mm:ss').format('h:mm a');
 
       if (_this.state.userSelectedTimeSlot && _this.state.selectedDate && _this.props.user) {
         var decomposedNameArray = _this.props.data.name.split('/');
@@ -1094,7 +1095,7 @@ function (_React$Component) {
         className: "modalContainer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 157
+          lineNumber: 158
         },
         __self: this
       }, this.props.type === 'booking' && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_material_ui_core_Modal__WEBPACK_IMPORTED_MODULE_9___default.a, {
@@ -1105,26 +1106,26 @@ function (_React$Component) {
         className: "modalBox",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 159
+          lineNumber: 160
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "modalContainer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 166
+          lineNumber: 167
         },
         __self: this
       }, this.props.data && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 168
+          lineNumber: 169
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("h2", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 169
+          lineNumber: 170
         },
         __self: this
       }, "Schedule with ", this.props.data.fields.name.stringValue), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_calendar_dist_entry_nostyle__WEBPACK_IMPORTED_MODULE_11___default.a, {
@@ -1134,14 +1135,14 @@ function (_React$Component) {
         onClickDay: this.onCalendarDateClick,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 170
+          lineNumber: 171
         },
         __self: this
       }), this.state.isDateSelected && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "dropdown",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 177
+          lineNumber: 178
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_SelectDropDown__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -1150,7 +1151,7 @@ function (_React$Component) {
         onSelectedTimeslot: this.onSelectedTimeslot,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 178
+          lineNumber: 179
         },
         __self: this
       }))), this.state.userSelectedTimeSlot && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_10___default.a, {
@@ -1161,7 +1162,7 @@ function (_React$Component) {
         color: "primary",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 188
+          lineNumber: 189
         },
         __self: this
       }, "Book"))));
@@ -1247,8 +1248,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_FormHelperText__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_FormHelperText__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _material_ui_core_FormControl__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/FormControl */ "@material-ui/core/FormControl");
 /* harmony import */ var _material_ui_core_FormControl__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_FormControl__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _material_ui_core_Select__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/core/Select */ "@material-ui/core/Select");
-/* harmony import */ var _material_ui_core_Select__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Select__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _material_ui_core_InputLabel__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @material-ui/core/InputLabel */ "@material-ui/core/InputLabel");
+/* harmony import */ var _material_ui_core_InputLabel__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_InputLabel__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _material_ui_core_Select__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @material-ui/core/Select */ "@material-ui/core/Select");
+/* harmony import */ var _material_ui_core_Select__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Select__WEBPACK_IMPORTED_MODULE_8__);
 
 
 
@@ -1258,9 +1261,10 @@ var _jsxFileName = "/Users/codychoi/Desktop/meshn/components/SelectDropDown.js";
 
 
 
+
 function SimpleSelect(props) {
   var _React$useState = react__WEBPACK_IMPORTED_MODULE_3___default.a.useState({
-    timeSlot: ''
+    timeSlot: null
   }),
       _React$useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__["default"])(_React$useState, 2),
       values = _React$useState2[0],
@@ -1276,7 +1280,7 @@ function SimpleSelect(props) {
   return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }, props.type === 'booking:timeslots' && react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core_FormControl__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -1285,33 +1289,33 @@ function SimpleSelect(props) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 23
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core_Select__WEBPACK_IMPORTED_MODULE_7___default.a, {
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core_InputLabel__WEBPACK_IMPORTED_MODULE_7___default.a, {
+    htmlFor: "age-label-placeholder",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "Select available time"), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core_Select__WEBPACK_IMPORTED_MODULE_8___default.a, {
     onChange: handleChange,
     displayEmpty: true,
     value: values.timeSlot,
     name: "timeSlot",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 27
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core_MenuItem__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    value: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, "Select available timeslot"), props.data.map(function (timeSlot) {
+  }, props.data.map(function (timeSlot) {
     return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core_MenuItem__WEBPACK_IMPORTED_MODULE_4___default.a, {
       key: timeSlot,
       value: timeSlot,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35
+        lineNumber: 36
       },
       __self: this
     }, "".concat(timeSlot.startTime, " - ").concat(timeSlot.endTime));
@@ -3313,6 +3317,17 @@ module.exports = require("@material-ui/core/FormControl");
 /***/ (function(module, exports) {
 
 module.exports = require("@material-ui/core/FormHelperText");
+
+/***/ }),
+
+/***/ "@material-ui/core/InputLabel":
+/*!***********************************************!*\
+  !*** external "@material-ui/core/InputLabel" ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/InputLabel");
 
 /***/ }),
 

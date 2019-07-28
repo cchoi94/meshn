@@ -62,6 +62,7 @@ class SimpleModal extends React.Component {
   onCalendarDateClick = (day) => {
     const selectedDateTimeSlots = []
     this.setState({
+      userSelectedTimeSlot: null,
       isDateSelected: true,
       selectedDate: day,
       selectedDateTimeSlots
@@ -97,9 +98,9 @@ class SimpleModal extends React.Component {
 
     let convertedDate = this.state.selectedDate.toString().slice(0,15)
 
-    let convertedStartTime = moment(this.state.userSelectedTimeSlot.startTime, 'HH:mm:ss').format('HH:mm a')
+    let convertedStartTime = moment(this.state.userSelectedTimeSlot.startTime, 'HH:mm:ss').format('h:mm a')
 
-    let convertedEndTime = moment(this.state.userSelectedTimeSlot.endTime, 'HH:mm:ss').format('HH:mm a')
+    let convertedEndTime = moment(this.state.userSelectedTimeSlot.endTime, 'HH:mm:ss').format('h:mm a')
 
 
     if (this.state.userSelectedTimeSlot && this.state.selectedDate && this.props.user){

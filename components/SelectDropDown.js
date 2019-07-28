@@ -1,11 +1,12 @@
 import MenuItem from '@material-ui/core/MenuItem';
 import FormHelperText from '@material-ui/core/FormHelperText';
 import FormControl from '@material-ui/core/FormControl';
+import InputLabel from '@material-ui/core/InputLabel';
 import Select from '@material-ui/core/Select';
 
 export default function SimpleSelect(props) {
   const [values, setValues] = React.useState({
-    timeSlot: ''
+    timeSlot: null
   });
 
   function handleChange(event) {
@@ -20,15 +21,15 @@ export default function SimpleSelect(props) {
     <div>
       {props.type === 'booking:timeslots' &&
         <FormControl style={{width: '100%'}}>
+           <InputLabel htmlFor="age-label-placeholder">
+              Select available time
+            </InputLabel>
             <Select
               onChange={handleChange}
               displayEmpty
               value={values.timeSlot}
               name='timeSlot'
             >
-              <MenuItem value="">
-                Select available timeslot
-              </MenuItem>
               {
                 props.data.map(timeSlot => {
                   return (
